@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use Case 2: SDLC Development | Bob AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>IBM Bob</h1>
+                    <span class="event-badge">IBM Think 2026</span>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="use-case-1.html" class="nav-link">Understand Codebase</a>
+                    <a href="use-case-2.html" class="nav-link active">Bob for SDLC</a>
+                    <a href="use-case-3.html" class="nav-link">Codebase Migration</a>
+                    <a href="use-case-4.html" class="nav-link">Bob for Non-Coding</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">Use Case 2: Bob for SDLC</h1>
+                <p class="hero-description">
+                    Create applications from scratch using Bob throughout the entire development lifecycle
+                </p>
+            </div>
+        </section>
+
+        <section class="prompt-section">
+            <div class="container">
+                <a href="index.html" class="back-link">← Back to Home</a>
+
+                <div class="prompt-note">
+                    <strong>Getting Started:</strong> Use Bob to build a complete application from scratch. This demonstrates Bob's capabilities across the entire Software Development Lifecycle (SDLC).
+                </div>
+
+                <!-- Prompt: Build Payment Processing Application -->
+                <div class="prompt-card">
+                    <div class="prompt-header">
+                        <h2 class="prompt-title">Build a Credit Card Payment Processing Application</h2>
+                        <button class="copy-btn" data-prompt="prompt-sdlc-1">Copy Prompt</button>
+                    </div>
+                    <div class="prompt-content" id="prompt-sdlc-1">Build a mock credit card payment processing application with:
+
+Backend (Java 11, Spring Boot):
+- REST API endpoints:
+  - POST /api/payments/authorize (authorize a card transaction)
+  - POST /api/payments/capture (capture an authorized transaction)
+  - POST /api/payments/refund (refund a captured transaction)
+  - GET /api/payments/{id} (get transaction status)
+  - GET /api/payments/history (list recent transactions)
+  - POST /admin/cache/clear (clear local cache)
+  - GET /actuator/health (readiness probe)
+  - GET /actuator/prometheus (metrics endpoint)
+
+- Use in-memory H2 database (no external DB needed)
+- Local Caffeine cache for transaction lookups
+- Simulate realistic processing delays (200-500ms)
+- Simulate random declines (10% of transactions)
+- Return realistic response codes (approved, declined, insufficient funds, expired card)
+- Use the test card numbers:
+  - Visa: 4263970000005262
+  - MasterCard: 5425230000004415
+  - Amex: 374101000000608
+
+Frontend (React):
+- Payment form: card number, expiry, CVV, amount
+- Transaction history dashboard showing recent payments
+- Status badges: Authorized (yellow), Captured (green), Declined (red), Refunded (gray)
+- Simple and clean — this is for a demo, not production
+
+Make it run with a single command: mvn spring-boot:run
+
+Do not run the application. I will run it myself.
+
+Also generate:
+- Dockerfile — multi-stage build, distroless base, non-root user
+- k8s/deployment.yaml — OpenShift deployment manifest with placeholder values:
+  - Image: image-registry.openshift-image-registry.svc:5000/${NAMESPACE}/payment-app:${IMAGE_TAG}
+  - Namespace: ${NAMESPACE}
+  - 3 replicas, resource limits, readiness/liveness probes
+  - PodDisruptionBudget (max 1 unavailable)
+  - Service and Route
+  Use placeholder values only — real cluster values will be injected at deploy time.
+
+Use the following folder structure:
+```
+payment-app/
+├── src/
+│   └── main/
+│       ├── java/com/demo/payment/
+│       │   ├── controller/
+│       │   ├── service/
+│       │   ├── model/
+│       │   └── config/
+│       └── resources/
+│           ├── static/          ← React frontend
+│           └── application.properties
+├── pom.xml
+├── Dockerfile
+├── k8s/
+│   └── deployment.yaml   ← OpenShift manifest with placeholder values
+└── README.md
+```</div>
+                    <div class="prompt-note bonus-challenge">
+                        <strong>Bonus Challenge:</strong> After Bob generates the application, ask Bob to run it locally and see the magic!
+                    </div>
+                </div>
+
+                <div class="prompt-note" style="margin-top: 2rem;">
+                    <strong>What This Demonstrates:</strong>
+                    <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+                        <li>Full-stack application development (Java Spring Boot + React)</li>
+                        <li>RESTful API design and implementation</li>
+                        <li>Database integration and caching strategies</li>
+                        <li>Containerization with Docker</li>
+                        <li>Kubernetes/OpenShift deployment manifests</li>
+                        <li>Production-ready configuration with health checks and metrics</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 IBM Think. All rights reserved.</p>
+            <p>Experience Bob AI - Your AI Coding Assistant</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

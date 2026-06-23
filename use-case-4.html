@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use Case 4: Creative Use Cases | Bob AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>IBM Bob</h1>
+                    <span class="event-badge">IBM Think 2026</span>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="use-case-1.html" class="nav-link">Understand Codebase</a>
+                    <a href="use-case-2.html" class="nav-link">Bob for SDLC</a>
+                    <a href="use-case-3.html" class="nav-link">Codebase Migration</a>
+                    <a href="use-case-4.html" class="nav-link active">Bob for Non-Coding</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">Use Case 4: Bob for Non-Coding Use Cases</h1>
+                <p class="hero-description">
+                    Build games, perform data analysis, and explore Bob's versatile capabilities
+                </p>
+            </div>
+        </section>
+
+        <section class="prompt-section">
+            <div class="container">
+                <a href="index.html" class="back-link">← Back to Home</a>
+
+                <div class="prompt-note">
+                    <strong>Getting Started:</strong> Explore Bob's creative capabilities beyond traditional coding. Build games, analyze data, and discover what else Bob can do!
+                </div>
+
+                <!-- Game Building Section -->
+                <div style="margin-top: 2rem;">
+                    <h2 style="font-size: 1.75rem; font-weight: 600; margin-bottom: 1rem; color: var(--gray-100);">4.1 Build a Game with Bob</h2>
+                    
+                    <div class="prompt-card">
+                        <div class="prompt-header">
+                            <h3 class="prompt-title">Build a Brick-Breaker Game</h3>
+                            <button class="copy-btn" data-prompt="prompt-game-1">Copy Prompt</button>
+                        </div>
+                        <div class="prompt-content" id="prompt-game-1">Build a simple classic arcade-style brick-breaker game similar to DX-Ball that I can easily launch and play on macOS.
+Requirements:
+* Player starts with 3 lives; after all lives are lost, show a "Game Over" screen
+* Include smooth controls, modern visuals effects fun gameplay feel
+* The game should be easy to run on macOS, ideally by double-clicking a launcher file
+* Include clear setup/run instructions
+* Keep the implementation simple and lightweight
+* Score tracking and Highest score so far
+* Pause/resume feature</div>
+                        <div class="prompt-note">
+                            <strong>Ready to Play:</strong> Once Bob creates the game, you can launch and start playing!
+                        </div>
+                    </div>
+
+                    <div class="prompt-note bonus-challenge" style="margin-top: 1.5rem;">
+                        <strong>Bonus Challenge:</strong>
+                        <br>
+                        Try adding more features to the game, e.g.
+                        <ul style="margin: 0.5rem 0 0.5rem 1.5rem;">
+                            <li>Multiple levels</li>
+                            <li>Power ups / upgrades: Increased paddle width, Multiple balls, Increased ball strength/speed</li>
+                        </ul>
+                        <br>
+                        Or try building a different game with Bob. How about Super Mario? Experiment with different game genres and see what Bob can create!
+                    </div>
+                </div>
+
+                <!-- Data Analysis Section -->
+                <div style="margin-top: 2rem;">
+                    <h2 style="font-size: 1.75rem; font-weight: 600; margin-bottom: 1rem; color: var(--gray-100);">4.2 Exploratory Data Analysis & Visualizations</h2>
+                    
+                    <div style="text-align: center; margin: 2rem 0;">
+                        <a href="assets/sample-data.csv" download="sample-data.csv" class="download-btn">
+                            <span class="download-icon">⬇</span> Download Sample CSV Data
+                        </a>
+                    </div>
+
+                    <div class="prompt-card">
+                        <div class="prompt-header">
+                            <h3 class="prompt-title">Analyze Dataset and Generate Visualizations</h3>
+                            <button class="copy-btn" onclick="copyPrompt(this)">Copy Prompt</button>
+                        </div>
+                        <div class="prompt-content">I have a dataset (sample-data.csv) that I'd like to analyze. Please help me with the following:
+
+1. Load and examine the dataset:
+   - Display the first few rows
+   - Show data types and basic statistics
+   - Identify any missing values or data quality issues
+
+2. Perform exploratory data analysis:
+   - Calculate summary statistics (mean, median, mode, standard deviation)
+   - Identify correlations between variables
+   - Detect outliers and anomalies
+
+3. Create comprehensive visualizations:
+   - Distribution plots (histograms, box plots) for numerical columns
+   - Bar charts for categorical data
+   - Correlation heatmap
+   - Scatter plots for relationships between key variables
+   - Time series plots if temporal data exists
+
+4. Generate insights:
+   - Identify key trends and patterns
+   - Highlight interesting findings
+   - Suggest potential areas for deeper analysis
+
+Please create an interactive HTML dashboard with all visualizations and insights, using modern charting libraries like Chart.js or Plotly. Make it visually appealing and easy to understand.</div>
+                        <div class="prompt-note">
+                            <strong>What You'll Get:</strong> Bob will analyze your data, generate statistical summaries, create interactive visualizations, and provide actionable insights—all in a beautiful HTML dashboard you can open in your browser.
+                        </div>
+                    </div>
+
+                    <div class="prompt-note bonus-challenge" style="margin-top: 1.5rem;">
+                        <strong>Bonus Challenge:</strong>
+                        <br>
+                        Try these advanced analysis tasks:
+                        <ul style="margin: 0.5rem 0 0.5rem 1.5rem;">
+                            <li>Ask Bob to perform predictive modeling or clustering analysis</li>
+                            <li>Request specific business insights based on your domain</li>
+                            <li>Have Bob create an interactive dashboard with filters and drill-down capabilities</li>
+                            <li>Ask for automated report generation with key findings</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="prompt-note" style="margin-top: 2rem;">
+                    <strong>What to Expect:</strong> These prompts will showcase Bob's versatility beyond traditional coding tasks:
+                    <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+                        <li>Interactive game development with various genres</li>
+                        <li>Data analysis and visualization from CSV/Excel files</li>
+                        <li>Creative problem-solving approaches</li>
+                        <li>Rapid prototyping and iteration</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 IBM Think. All rights reserved.</p>
+            <p>Experience Bob AI - Your AI Coding Assistant</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

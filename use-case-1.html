@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use Case 1: Understanding Codebase | Bob AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>IBM Bob</h1>
+                    <span class="event-badge">IBM Think 2026</span>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="use-case-1.html" class="nav-link active">Understand Codebase</a>
+                    <a href="use-case-2.html" class="nav-link">Bob for SDLC</a>
+                    <a href="use-case-3.html" class="nav-link">Codebase Migration</a>
+                    <a href="use-case-4.html" class="nav-link">Bob for Non-Coding</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">Use Case 1: Understanding Codebase</h1>
+                <p class="hero-description">
+                    Analyze existing applications, extract business rules, and generate comprehensive documentation
+                </p>
+            </div>
+        </section>
+
+        <section class="prompt-section">
+            <div class="container">
+                <a href="index.html" class="back-link">← Back to Home</a>
+
+                <div class="prompt-note">
+                    <strong>Getting Started:</strong> Switch to <strong>Ask Mode</strong> in Bob before using these prompts. Download the sample codebase below, then use the prompts to analyze it with Bob.
+                </div>
+
+                <!-- Download Codebase Button -->
+                <div style="text-align: center; margin: 2rem 0;">
+                    <a href="assets/GenApp.zip" download="GenApp.zip" class="download-btn">
+                        <span class="download-icon">⬇</span> Download Codebase
+                    </a>
+                    <p style="margin-top: 0.5rem; color: var(--gray-70); font-size: 0.95rem;">
+                        <strong>Sample GenApp codebase for hands-on practice</strong>
+                    </p>
+                </div>
+
+                <!-- Prompt 1 -->
+                <div class="prompt-card">
+                    <div class="prompt-header">
+                        <h2 class="prompt-title">Application Overview</h2>
+                        <button class="copy-btn" data-prompt="prompt-1-1">Copy Prompt</button>
+                    </div>
+                    <div class="prompt-content" id="prompt-1-1">What is this application about?</div>
+                </div>
+
+                <!-- Prompt 2 -->
+                <div class="prompt-card">
+                    <div class="prompt-header">
+                        <h2 class="prompt-title">In-Depth Q&A with Codebase</h2>
+                        <button class="copy-btn" data-prompt="prompt-1-2">Copy Prompt</button>
+                    </div>
+                    <div class="prompt-content" id="prompt-1-2">Which program & paragraph is responsible for inserting data into customer table?</div>
+                </div>
+
+                <!-- Prompt 3 -->
+                <div class="prompt-card">
+                    <div class="prompt-header">
+                        <h2 class="prompt-title">Business Rules Extraction</h2>
+                        <button class="copy-btn" data-prompt="prompt-1-3">Copy Prompt</button>
+                    </div>
+                    <div class="prompt-content" id="prompt-1-3">Extract all business rules present in program LGACDB01.cbl & save it as html file with carbon ui design</div>
+                </div>
+
+                <!-- Prompt 4 -->
+                <div class="prompt-card">
+                    <div class="prompt-header">
+                        <h2 class="prompt-title">Program Call Graph</h2>
+                        <button class="copy-btn" data-prompt="prompt-1-4">Copy Prompt</button>
+                    </div>
+                    <div class="prompt-content" id="prompt-1-4">Generate the program call graph of GenApp in markdown file</div>
+                </div>
+
+                <!-- Prompt 5 -->
+                <div class="prompt-card">
+                    <div class="prompt-header">
+                        <h2 class="prompt-title">Advanced Architecture Diagrams</h2>
+                        <button class="copy-btn" data-prompt="prompt-1-4a">Copy Prompt</button>
+                    </div>
+                    <div class="prompt-content" id="prompt-1-4a">Generate Data Flow Architecture & Transaction Flow diagrams of GenApp in html file</div>
+                    <div class="prompt-note">
+                        <strong>Note:</strong> Use this prompt after completing the Program Call Graph prompt to get more detailed architectural insights.
+                    </div>
+                </div>
+
+                <div class="prompt-note" style="margin-top: 2rem;">
+                    <strong>Pro Tips:</strong>
+                    <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+                        <li>Start with Application Overview to get a high-level understanding</li>
+                        <li>Use In-Depth Q&A to explore specific functionality and Business Rules Extraction for detailed analysis</li>
+                        <li>Generate documentation with Program Call Graph and Architecture Diagrams for comprehensive understanding</li>
+                        <li>Feel free to ask follow-up questions based on Bob's responses</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 IBM Think. All rights reserved.</p>
+            <p>Experience Bob AI - Your AI Coding Assistant</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

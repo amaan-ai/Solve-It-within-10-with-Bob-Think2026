@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Use Case 3: Codebase Migration | Bob AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>IBM Bob</h1>
+                    <span class="event-badge">IBM Think 2026</span>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="use-case-1.html" class="nav-link">Understand Codebase</a>
+                    <a href="use-case-2.html" class="nav-link">Bob for SDLC</a>
+                    <a href="use-case-3.html" class="nav-link active">Codebase Migration</a>
+                    <a href="use-case-4.html" class="nav-link">Bob for Non-Coding</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">Use Case 3: Codebase Migration</h1>
+                <p class="hero-description">
+                    Migrate legacy systems to modern platforms with AI-assisted transformation
+                </p>
+            </div>
+        </section>
+
+        <section class="prompt-section">
+            <div class="container">
+                <a href="index.html" class="back-link">← Back to Home</a>
+
+                <div class="prompt-note">
+                    <strong>Getting Started:</strong> Use Bob to transform legacy mainframe applications to modern Java. Download the sample codebase below, then use the prompts to migrate it with Bob.
+                </div>
+
+                <!-- Download Codebase Button -->
+                <div style="text-align: center; margin: 2rem 0;">
+                    <a href="assets/GenApp.zip" download="GenApp.zip" class="download-btn">
+                        <span class="download-icon">⬇</span> Download Codebase
+                    </a>
+                    <p style="margin-top: 0.5rem; color: var(--gray-70); font-size: 0.95rem;">
+                        <strong>Sample GenApp codebase for hands-on practice</strong>
+                    </p>
+                </div>
+
+                <!-- Prompt: Transform GenApp to Java -->
+                <div class="prompt-card">
+                    <div class="prompt-header">
+                        <h2 class="prompt-title">Transform COBOL GenApp to Java 21 GenApp</h2>
+                        <button class="copy-btn" data-prompt="prompt-migration-1">Copy Prompt</button>
+                    </div>
+                    <div class="prompt-content" id="prompt-migration-1">Transform this entire @GenApp application into executable Java21 application.
+- Provide comparison between corresponding PL1 & Java files and modules.
+- Make sure the transformed java21 application compiles successfully
+- Generate and run unit tests for java.
+- Finally provide steps to run this java application.</div>
+                </div>
+
+                <!-- Bonus Prompt: Add Web UI -->
+                <div class="prompt-card">
+                    <div class="prompt-header">
+                        <h2 class="prompt-title">Bonus: Add Web UI with Carbon Design</h2>
+                        <button class="copy-btn" data-prompt="prompt-migration-bonus">Copy Prompt</button>
+                    </div>
+                    <div class="prompt-content" id="prompt-migration-bonus">- Add web UI to this Java application, use carbon design.
+- Run this java application
+- Open the web UI in browser session and test different functionality</div>
+                    <div class="prompt-note bonus-challenge">
+                        <strong>Bonus Challenge:</strong> After Bob transforms the application to Java, use this prompt to add a modern web interface with Carbon Design System.
+                    </div>
+                </div>
+
+                <div class="prompt-note" style="margin-top: 2rem;">
+                    <strong>What This Demonstrates:</strong>
+                    <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+                        <li>Legacy mainframe to modern Java transformation</li>
+                        <li>Cross-language code comparison and mapping</li>
+                        <li>Automated compilation and testing</li>
+                        <li>Modern UI integration with Carbon Design System</li>
+                        <li>End-to-end migration workflow</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 IBM Think. All rights reserved.</p>
+            <p>Experience Bob AI - Your AI Coding Assistant</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

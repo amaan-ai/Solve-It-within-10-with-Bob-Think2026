@@ -1,0 +1,459 @@
+/* IBM Think Inspired Styles */
+:root {
+    --primary-blue: #0f62fe;
+    --dark-blue: #001d6c;
+    --light-blue: #4589ff;
+    --gray-10: #f4f4f4;
+    --gray-20: #e0e0e0;
+    --gray-50: #8d8d8d;
+    --gray-70: #525252;
+    --gray-100: #161616;
+    --white: #ffffff;
+    --success: #24a148;
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+    --spacing-2xl: 4rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: var(--gray-100);
+    background-color: var(--white);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+/* Header */
+.header {
+    background-color: var(--gray-100);
+    color: var(--white);
+    padding: var(--spacing-md) 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-md);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.logo h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.event-badge {
+    background: linear-gradient(135deg, var(--primary-blue), var(--light-blue));
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.nav {
+    display: flex;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+}
+
+.nav-link {
+    color: var(--gray-20);
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.3s ease;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--white);
+    border-bottom-color: var(--primary-blue);
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, var(--dark-blue) 0%, var(--primary-blue) 100%);
+    color: var(--white);
+    padding: var(--spacing-2xl) 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.2;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: var(--spacing-md);
+    opacity: 0.9;
+}
+
+.hero-description {
+    font-size: 1.125rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.95;
+}
+
+/* Steps Section */
+.steps {
+    padding: var(--spacing-lg) 0;
+    background-color: var(--gray-10);
+}
+
+.steps-compact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-md);
+}
+
+.step-compact {
+    background: var(--white);
+    padding: var(--spacing-md);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    display: flex;
+    gap: var(--spacing-sm);
+    align-items: flex-start;
+}
+
+.step-number-compact {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    height: 32px;
+    background: var(--primary-blue);
+    color: var(--white);
+    border-radius: 50%;
+    font-size: 1.125rem;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.step-content-compact h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    color: var(--gray-100);
+}
+
+.step-content-compact p {
+    font-size: 0.95rem;
+    color: var(--gray-70);
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* Use Cases Section */
+.use-cases {
+    padding: var(--spacing-2xl) 0;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: var(--spacing-sm);
+    color: var(--gray-100);
+}
+
+.section-subtitle {
+    text-align: center;
+    font-size: 1.125rem;
+    color: var(--gray-70);
+    margin-bottom: var(--spacing-xl);
+}
+
+.use-case-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+}
+
+.use-case-card {
+    background: var(--white);
+    padding: var(--spacing-xl);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.use-case-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    border-color: var(--primary-blue);
+}
+
+.use-case-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: var(--spacing-sm);
+    color: var(--gray-100);
+}
+
+.use-case-description {
+    color: var(--gray-70);
+    margin-bottom: var(--spacing-md);
+    flex-grow: 1;
+}
+
+.use-case-cta {
+    color: var(--primary-blue);
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Outcomes Section */
+.outcomes {
+    padding: var(--spacing-2xl) 0;
+    background-color: var(--gray-10);
+}
+
+.outcomes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+}
+
+.outcome-card {
+    background: var(--white);
+    padding: var(--spacing-xl);
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.outcome-card p {
+    color: var(--gray-70);
+    font-size: 1.125rem;
+}
+
+/* Download Button */
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--primary-blue);
+    color: var(--white);
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.125rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(15, 98, 254, 0.3);
+}
+
+.download-btn:hover {
+    background: var(--light-blue);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(15, 98, 254, 0.4);
+}
+
+.download-btn:active {
+    transform: translateY(0);
+}
+
+.download-icon {
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--gray-100);
+    color: var(--white);
+    padding: var(--spacing-xl) 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: var(--spacing-xs) 0;
+    opacity: 0.8;
+}
+
+/* Prompt Card Styles (for use case pages) */
+.prompt-section {
+    padding: var(--spacing-2xl) 0;
+}
+
+.prompt-card {
+    background: var(--white);
+    padding: var(--spacing-xl);
+    margin-bottom: var(--spacing-lg);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border-left: 4px solid var(--primary-blue);
+}
+
+.prompt-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-md);
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+}
+
+.prompt-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--gray-100);
+}
+
+.copy-btn {
+    background: var(--primary-blue);
+    color: var(--white);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+}
+
+.copy-btn:hover {
+    background: var(--light-blue);
+    transform: translateY(-2px);
+}
+
+.copy-btn:active {
+    transform: translateY(0);
+}
+
+.copy-btn.copied {
+    background: var(--success);
+}
+
+.prompt-content {
+    background: var(--gray-10);
+    padding: var(--spacing-md);
+    border-radius: 4px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: var(--gray-100);
+    border: 1px solid var(--gray-20);
+}
+
+.prompt-note {
+    margin-top: var(--spacing-md);
+    padding: var(--spacing-md);
+    background: #fff3cd;
+    border-left: 4px solid #ffc107;
+    border-radius: 4px;
+    color: var(--gray-100);
+}
+
+.prompt-note.bonus-challenge {
+    background: #d4edda;
+    border-left: 4px solid #28a745;
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--primary-blue);
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: var(--spacing-lg);
+    transition: color 0.3s ease;
+}
+
+.back-link:hover {
+    color: var(--light-blue);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.25rem;
+    }
+
+    .nav {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .use-case-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .outcomes-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .step-card {
+        padding: var(--spacing-lg);
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 1.5rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .prompt-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .copy-btn {
+        width: 100%;
+    }
+}
+
+/* Made with Bob */
