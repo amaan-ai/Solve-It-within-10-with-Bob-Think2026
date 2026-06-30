@@ -14,14 +14,28 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <h1><a href="https://bob.ibm.com/" class="logo-link" target="_blank" rel="noopener">IBM Bob</a></h1>
+                    <h1><a href="https://bob.ibm.com/" class="logo-link" target="_blank" rel="noopener"><img src="bob-icon.png" alt="Bob" class="logo-icon">IBM Bob</a></h1>
                 </div>
                 <nav class="nav">
                     <a href="index.html" class="nav-link">Home</a>
                     <a href="use-case-1.html" class="nav-link">Understand Codebase</a>
                     <a href="use-case-2.html" class="nav-link">Bob for SDLC</a>
                     <a href="use-case-3.html" class="nav-link">Codebase Migration</a>
-                    <a href="use-case-4.html" class="nav-link active">Bob for Non-Coding</a>
+                    <div class="nav-dropdown">
+                        <button class="nav-dropdown-toggle active">Bob for Non-Coding <span class="dropdown-caret">&#9660;</span></button>
+                        <div class="nav-dropdown-menu">
+                            <div class="nav-dropdown-menu-inner">
+                                <a href="use-case-4.html?tab=game" class="nav-dropdown-item">
+                                    <span class="dropdown-item-label">4.1 Build a Game with Bob</span>
+                                    <span class="dropdown-item-desc">Build arcade games and creative apps</span>
+                                </a>
+                                <a href="use-case-4.html?tab=data" class="nav-dropdown-item">
+                                    <span class="dropdown-item-label">4.2 Exploratory Data Analysis &amp; Visualizations</span>
+                                    <span class="dropdown-item-desc">Analyze data and generate interactive dashboards</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     <a href="https://bob.ibm.com/docs/ide" class="nav-link nav-link-docs" target="_blank" rel="noopener">Bob Docs ↗</a>
                 </nav>
             </div>
@@ -42,15 +56,19 @@
             <div class="container">
                 <a href="index.html" class="back-link">← Back to Home</a>
 
-                <div class="prompt-note">
-                    <strong>Getting Started:</strong> Explore Bob's creative capabilities beyond traditional coding. Build games, analyze data, and discover what else Bob can do!
+                <!-- Sub-tabs -->
+                <div class="sub-tabs">
+                    <button class="sub-tab-btn active" data-tab="tab-game">4.1 Build a Game with Bob</button>
+                    <button class="sub-tab-btn" data-tab="tab-data">4.2 Exploratory Data Analysis &amp; Visualizations</button>
                 </div>
 
-                <!-- Game Building Section -->
-                <div style="margin-top: 2rem;">
-                    <h2 style="font-size: 1.75rem; font-weight: 600; margin-bottom: 1rem; color: var(--gray-100);">4.1 Build a Game with Bob</h2>
-                    
-                    <div class="prompt-card">
+                <!-- Tab: Build a Game -->
+                <div class="sub-tab-panel active" id="tab-game">
+                    <div class="prompt-note">
+                        <strong>Getting Started:</strong> Explore Bob's creative capabilities beyond traditional coding. Build a game and see what Bob can create!
+                    </div>
+
+                    <div class="prompt-card" style="margin-top: 1.5rem;">
                         <div class="prompt-header">
                             <h3 class="prompt-title">Build a Brick-Breaker Game</h3>
                             <button class="copy-btn" data-prompt="prompt-game-1">Copy Prompt</button>
@@ -80,13 +98,24 @@ Requirements:
                         <br>
                         Or try building a different game with Bob. How about Super Mario? Experiment with different game genres and see what Bob can create!
                     </div>
+
+                    <div class="prompt-note" style="margin-top: 2rem;">
+                        <strong>What to Expect:</strong>
+                        <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+                            <li>Interactive game development with various genres</li>
+                            <li>Creative problem-solving approaches</li>
+                            <li>Rapid prototyping and iteration</li>
+                        </ul>
+                    </div>
                 </div>
 
-                <!-- Data Analysis Section -->
-                <div style="margin-top: 2rem;">
-                    <h2 style="font-size: 1.75rem; font-weight: 600; margin-bottom: 1rem; color: var(--gray-100);">4.2 Exploratory Data Analysis & Visualizations</h2>
-                    
-                    <div style="text-align: center; margin: 2rem 0;">
+                <!-- Tab: Data Analysis -->
+                <div class="sub-tab-panel" id="tab-data">
+                    <div class="prompt-note">
+                        <strong>Getting Started:</strong> Download the sample dataset below, then use the prompt to analyze it with Bob and generate an interactive dashboard!
+                    </div>
+
+                    <div style="text-align: center; margin: 1.5rem 0;">
                         <a href="assets/sample-data.csv" download="sample-data.csv" class="download-btn">
                             <span class="download-icon">⬇</span> Download Sample CSV Data
                         </a>
@@ -95,9 +124,9 @@ Requirements:
                     <div class="prompt-card">
                         <div class="prompt-header">
                             <h3 class="prompt-title">Analyze Dataset and Generate Visualizations</h3>
-                            <button class="copy-btn" onclick="copyPrompt(this)">Copy Prompt</button>
+                            <button class="copy-btn" data-prompt="prompt-eda-1">Copy Prompt</button>
                         </div>
-                        <div class="prompt-content">I have a dataset (sample-data.csv) that I'd like to analyze. Please help me with the following:
+                        <div class="prompt-content" id="prompt-eda-1">I have a dataset (sample-data.csv) that I'd like to analyze. Please help me with the following:
 
 1. Load and examine the dataset:
    - Display the first few rows
@@ -138,16 +167,15 @@ Please create an interactive HTML dashboard with all visualizations and insights
                             <li>Ask for automated report generation with key findings</li>
                         </ul>
                     </div>
-                </div>
 
-                <div class="prompt-note" style="margin-top: 2rem;">
-                    <strong>What to Expect:</strong> These prompts will showcase Bob's versatility beyond traditional coding tasks:
-                    <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
-                        <li>Interactive game development with various genres</li>
-                        <li>Data analysis and visualization from CSV/Excel files</li>
-                        <li>Creative problem-solving approaches</li>
-                        <li>Rapid prototyping and iteration</li>
-                    </ul>
+                    <div class="prompt-note" style="margin-top: 2rem;">
+                        <strong>What to Expect:</strong>
+                        <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+                            <li>Data analysis and visualization from CSV/Excel files</li>
+                            <li>Creative problem-solving approaches</li>
+                            <li>Rapid prototyping and iteration</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -171,5 +199,30 @@ Please create an interactive HTML dashboard with all visualizations and insights
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        // Activate a specific sub-tab by its panel id
+        function activateTab(tabId) {
+            document.querySelectorAll('.sub-tab-btn').forEach(function(b) {
+                b.classList.toggle('active', b.getAttribute('data-tab') === tabId);
+            });
+            document.querySelectorAll('.sub-tab-panel').forEach(function(panel) {
+                panel.classList.toggle('active', panel.id === tabId);
+            });
+        }
+
+        // Sub-tab button clicks
+        document.querySelectorAll('.sub-tab-btn').forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                activateTab(this.getAttribute('data-tab'));
+            });
+        });
+
+        // Open the correct tab from ?tab= query param (used by nav dropdown links)
+        (function() {
+            var param = new URLSearchParams(window.location.search).get('tab');
+            if (param === 'game') activateTab('tab-game');
+            else if (param === 'data') activateTab('tab-data');
+        })();
+    </script>
 </body>
 </html>

@@ -69,12 +69,22 @@ body {
 }
 
 .logo-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
     color: inherit;
     text-decoration: none;
 }
 
 .logo-link:hover {
     text-decoration: underline;
+}
+
+.logo-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    display: block;
 }
 
 .event-badge {
@@ -89,6 +99,7 @@ body {
     display: flex;
     gap: var(--spacing-md);
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .nav-link {
@@ -109,6 +120,111 @@ body {
 .nav-link-docs {
     color: var(--light-blue);
     font-weight: 500;
+}
+
+/* Nav dropdown */
+.nav-dropdown {
+    position: relative;
+}
+
+.nav-dropdown-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    color: var(--gray-20);
+    text-decoration: none;
+    font-weight: 400;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family: inherit;
+    font-size: inherit;
+    transition: color 0.3s ease;
+    white-space: nowrap;
+}
+
+.nav-dropdown-toggle:hover,
+.nav-dropdown-toggle.active {
+    color: var(--white);
+    border-bottom-color: var(--primary-blue);
+}
+
+.nav-dropdown-toggle .dropdown-caret {
+    font-size: 0.6rem;
+    opacity: 0.7;
+    transition: transform 0.2s;
+    line-height: 1;
+}
+
+.nav-dropdown:hover .dropdown-caret,
+.nav-dropdown:focus-within .dropdown-caret {
+    transform: rotate(180deg);
+}
+
+.nav-dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 0.5rem;
+    min-width: 280px;
+    z-index: 200;
+}
+
+.nav-dropdown-menu-inner {
+    background: var(--white);
+    border: 1px solid var(--gray-20);
+    border-radius: 6px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+}
+
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+    display: block;
+}
+
+.nav-dropdown-item {
+    display: block;
+    padding: 0.8rem 1.2rem;
+    color: var(--gray-100);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+    border-left: 3px solid transparent;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.nav-dropdown-item:hover {
+    background: var(--gray-10);
+    border-left-color: var(--primary-blue);
+    color: var(--primary-blue);
+}
+
+.nav-dropdown-item + .nav-dropdown-item {
+    border-top: 1px solid var(--gray-20);
+}
+
+.nav-dropdown-item .dropdown-item-label {
+    display: block;
+    font-weight: 500;
+    color: inherit;
+}
+
+.nav-dropdown-item .dropdown-item-desc {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--gray-50);
+    margin-top: 0.15rem;
+}
+
+.nav-dropdown-item:hover .dropdown-item-desc {
+    color: var(--light-blue);
 }
 
 /* Hero Section */
@@ -524,3 +640,84 @@ body {
 }
 
 /* Made with Bob */
+
+/* Sub-tabs (Use Case 4) */
+.sub-tabs {
+    display: flex;
+    gap: 0;
+    margin: 1.75rem 0 0;
+    background: var(--gray-10);
+    border: 1px solid var(--gray-20);
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+    padding: 0 1rem;
+}
+
+.sub-tab-btn {
+    padding: 0.85rem 1.5rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--gray-70);
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -1px;
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+    white-space: nowrap;
+}
+
+.sub-tab-btn:hover {
+    color: var(--gray-100);
+    border-bottom-color: var(--gray-20);
+}
+
+.sub-tab-btn.active {
+    color: var(--primary-blue);
+    border-bottom-color: var(--primary-blue);
+    font-weight: 600;
+}
+
+.sub-tab-panel {
+    display: none;
+    padding: 2rem;
+    background: var(--white);
+    border: 1px solid var(--gray-20);
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+}
+
+.sub-tab-panel.active {
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .sub-tabs {
+        flex-direction: column;
+        border-radius: 8px;
+        border-bottom: 1px solid var(--gray-20);
+        padding: 0.5rem;
+        gap: 0.25rem;
+    }
+
+    .sub-tab-btn {
+        border: 1px solid var(--gray-20);
+        border-radius: 4px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .sub-tab-btn.active {
+        background: #e8f0fe;
+        border-color: var(--primary-blue);
+        color: var(--primary-blue);
+        border-bottom-color: var(--primary-blue);
+    }
+
+    .sub-tab-panel {
+        border-radius: 8px;
+        margin-top: 0.5rem;
+        border-top: 1px solid var(--gray-20);
+    }
+}

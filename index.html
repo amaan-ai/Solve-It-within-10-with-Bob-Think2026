@@ -14,14 +14,28 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <h1><a href="https://bob.ibm.com/" class="logo-link" target="_blank" rel="noopener">IBM Bob</a></h1>
+                    <h1><a href="https://bob.ibm.com/" class="logo-link" target="_blank" rel="noopener"><img src="bob-icon.png" alt="Bob" class="logo-icon">IBM Bob</a></h1>
                 </div>
                 <nav class="nav">
                     <a href="index.html" class="nav-link active">Home</a>
                     <a href="use-case-1.html" class="nav-link">Understand Codebase</a>
                     <a href="use-case-2.html" class="nav-link">Bob for SDLC</a>
                     <a href="use-case-3.html" class="nav-link">Codebase Migration</a>
-                    <a href="use-case-4.html" class="nav-link">Bob for Non-Coding</a>
+                    <div class="nav-dropdown">
+                        <button class="nav-dropdown-toggle">Bob for Non-Coding <span class="dropdown-caret">&#9660;</span></button>
+                        <div class="nav-dropdown-menu">
+                            <div class="nav-dropdown-menu-inner">
+                                <a href="use-case-4.html?tab=game" class="nav-dropdown-item">
+                                    <span class="dropdown-item-label">4.1 Build a Game with Bob</span>
+                                    <span class="dropdown-item-desc">Build arcade games and creative apps</span>
+                                </a>
+                                <a href="use-case-4.html?tab=data" class="nav-dropdown-item">
+                                    <span class="dropdown-item-label">4.2 Exploratory Data Analysis &amp; Visualizations</span>
+                                    <span class="dropdown-item-desc">Analyze data and generate interactive dashboards</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     <a href="https://bob.ibm.com/docs/ide" class="nav-link nav-link-docs" target="_blank" rel="noopener">Bob Docs ↗</a>
                 </nav>
             </div>
