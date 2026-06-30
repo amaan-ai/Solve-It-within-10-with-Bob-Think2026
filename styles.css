@@ -721,3 +721,301 @@ body {
         border-top: 1px solid var(--gray-20);
     }
 }
+
+/* ── Tab 4.3: Music & Voice Cloning ────────────────────────────────── */
+
+/* Part labels */
+.music-part-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--primary-blue);
+    margin: 0 0 0.3rem;
+}
+
+.music-part-desc {
+    font-size: 0.9rem;
+    color: var(--gray-70);
+    margin: 0 0 1rem;
+}
+
+/* Divider */
+.music-divider {
+    border: none;
+    border-top: 1px solid var(--gray-20);
+    margin: 1.5rem 0;
+}
+
+/* Part 1: 3-column prompt chips */
+.music-prompt-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.875rem;
+}
+
+.music-prompt-chip {
+    background: var(--gray-10);
+    border: 1px solid var(--gray-20);
+    border-top: 3px solid var(--primary-blue);
+    border-radius: 6px;
+    padding: 0.875rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.music-prompt-chip-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--primary-blue);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.music-prompt-chip-text {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--gray-70);
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+.music-copy-btn {
+    align-self: flex-end;
+    padding: 0.35rem 0.85rem !important;
+    font-size: 0.8rem !important;
+}
+
+/* Part 2: flow indicator */
+.voice-flow {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.75rem 0 0;
+    flex-wrap: wrap;
+}
+
+.voice-flow-step {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--gray-10);
+    border: 1px solid var(--gray-20);
+    border-radius: 20px;
+    padding: 0.35rem 0.85rem 0.35rem 0.5rem;
+}
+
+.vf-num {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--primary-blue);
+    color: var(--white);
+    font-size: 0.72rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.vf-label {
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--gray-100);
+    white-space: nowrap;
+}
+
+.voice-flow-arrow {
+    color: var(--gray-50);
+    font-size: 0.9rem;
+}
+
+/* Voice step cards */
+.voice-card {
+    background: var(--gray-10);
+    border: 1px solid var(--gray-20);
+    border-radius: 8px;
+    padding: 1.25rem;
+}
+
+.voice-card-blue {
+    background: #f0f4ff;
+    border-color: #c0d0f8;
+}
+
+.voice-card-step-row {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 0;
+}
+
+.voice-step-badge {
+    flex-shrink: 0;
+    background: var(--gray-100);
+    color: var(--white);
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.18rem 0.5rem;
+    border-radius: 3px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.voice-step-badge-blue {
+    background: var(--primary-blue);
+}
+
+.voice-card-step-title {
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--gray-100);
+}
+
+/* Script box */
+.voice-script-box {
+    background: var(--white);
+    border: 1px solid var(--gray-20);
+    border-left: 4px solid var(--primary-blue);
+    border-radius: 4px;
+    padding: 0.75rem 1rem;
+    font-size: 0.95rem;
+    color: var(--gray-100);
+    line-height: 1.6;
+    font-style: italic;
+}
+
+/* Recorder controls */
+.recorder-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-top: 0.75rem;
+}
+
+.recorder-btn {
+    padding: 0.55rem 1.2rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.15s, opacity 0.15s;
+}
+
+.recorder-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+
+.recorder-btn-start { background: var(--primary-blue); color: var(--white); }
+.recorder-btn-start:not(:disabled):hover { background: var(--light-blue); }
+.recorder-btn-stop  { background: #da1e28; color: var(--white); }
+.recorder-btn-stop:not(:disabled):hover  { background: #b81922; }
+
+.record-timer {
+    font-size: 0.85rem;
+    color: var(--gray-70);
+    font-variant-numeric: tabular-nums;
+}
+
+.recording-indicator {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.82rem;
+    color: #da1e28;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+.rec-dot {
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    background: #da1e28;
+    animation: rec-pulse 1s ease-in-out infinite;
+    display: inline-block;
+}
+
+@keyframes rec-pulse {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0.2; }
+}
+
+.voice-audio-player { width: 100%; border-radius: 4px; }
+
+.voice-rerecord-hint {
+    font-size: 0.82rem;
+    color: var(--gray-70);
+}
+
+/* Step 3 inline instruction strip */
+.voice-step3-instructions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+    color: var(--gray-100);
+    background: var(--white);
+    border: 1px solid #c0d0f8;
+    border-radius: 5px;
+    padding: 0.6rem 0.9rem;
+}
+
+.vsi-arrow { color: var(--gray-50); }
+
+.voice-expect-note {
+    margin-top: 0.75rem;
+    font-size: 0.82rem;
+    color: var(--gray-70);
+}
+
+/* Take-home accordion */
+.takehome-accordion {
+    margin-top: 1.5rem;
+    border: 1px solid var(--gray-20);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.takehome-summary {
+    padding: 0.85rem 1.1rem;
+    background: var(--gray-10);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--gray-100);
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    user-select: none;
+}
+
+.takehome-summary::-webkit-details-marker { display: none; }
+
+.takehome-summary::before {
+    content: '▶';
+    font-size: 0.6rem;
+    color: var(--gray-50);
+    transition: transform 0.2s;
+    display: inline-block;
+}
+
+details[open] .takehome-summary::before { transform: rotate(90deg); }
+
+.takehome-body {
+    padding: 1.25rem;
+    border-top: 1px solid var(--gray-20);
+    background: var(--white);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .music-prompt-row { grid-template-columns: 1fr; }
+    .voice-flow { gap: 0.35rem; }
+    .voice-step3-instructions { flex-direction: column; align-items: flex-start; }
+}
