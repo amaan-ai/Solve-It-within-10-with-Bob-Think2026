@@ -131,33 +131,29 @@ Requirements:
                             <h3 class="prompt-title">Analyze Dataset and Generate Visualizations</h3>
                             <button class="copy-btn" data-prompt="prompt-eda-1">Copy Prompt</button>
                         </div>
-                        <div class="prompt-content" id="prompt-eda-1">I have a dataset (sample-data.csv) that I'd like to analyze. Please help me with the following:
+                        <div class="prompt-content" id="prompt-eda-1">I have a dataset sampl-data.csv that I'd like analyzed for a business executive audience. Please:
 
-1. Load and examine the dataset:
-   - Display the first few rows
-   - Show data types and basic statistics
-   - Identify any missing values or data quality issues
+1. Quickly scan the data — note what it covers, the date range if any, and flag any data quality issues worth knowing about.
 
-2. Perform exploratory data analysis:
-   - Calculate summary statistics (mean, median, mode, standard deviation)
-   - Identify correlations between variables
-   - Detect outliers and anomalies
+2. Analyze it for:
+   - Key performance trends over time (if the data has a date/time dimension)
+   - How performance breaks down across the main categories/segments in the data
+   - Relationships between key metrics (e.g., what drives what)
+   - Any notable outliers, anomalies, or standout results
 
-3. Create comprehensive visualizations:
-   - Distribution plots (histograms, box plots) for numerical columns
-   - Bar charts for categorical data
-   - Correlation heatmap
-   - Scatter plots for relationships between key variables
-   - Time series plots if temporal data exists
+3. Build an interactive HTML dashboard with:
+   - A top-line KPI summary (a few headline numbers that matter most)
+   - Trend chart(s) over time, if temporal data exists, at a sensible time granularity
+   - Category/segment comparison charts (bar charts)
+   - One chart showing the relationship between key metrics
+   - A correlation heatmap only if it adds clear business value — otherwise skip it
+   - Other important data visualization if any
 
-4. Generate insights:
-   - Identify key trends and patterns
-   - Highlight interesting findings
-   - Suggest potential areas for deeper analysis
+4. Add a short executive summary at the top: 3-5 bullet points on key takeaways, and 2-3 recommended next steps or areas worth digging into further.
 
-Please create an interactive HTML dashboard with all visualizations and insights, using modern charting libraries like Chart.js or Plotly. Make it visually appealing and easy to understand.</div>
+Use Chart.js and/or Plotly. Style with the IBM Carbon Design System — IBM Plex Sans typography, Carbon's color tokens and layout conventions. Keep it clean, professional, and easy to skim — prioritize clarity over statistical detail. No emoji or emoticons anywhere.</div>
                         <div class="prompt-note">
-                            <strong>What You'll Get:</strong> Bob will analyze your data, generate statistical summaries, create interactive visualizations, and provide actionable insights—all in a beautiful HTML dashboard you can open in your browser.
+                            <strong>What You'll Get:</strong> Bob will produce an executive-ready HTML dashboard with KPI headlines, trend and comparison charts, key takeaways, and recommended next steps — all styled with IBM Carbon Design System conventions.
                         </div>
                     </div>
 

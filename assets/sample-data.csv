@@ -1,0 +1,501 @@
+OrderID,OrderDate,CustomerName,CustomerSegment,SalesChannel,Region,Country,ProductCategory,ProductName,Quantity,UnitPrice,DiscountPercent,SalesAmount,Profit,ShippingCost,PaymentMethod,OrderStatus,SalesRep
+ORD-10095,2024-01-02,Priya Park,Consumer,Partner Reseller,Asia Pacific,Japan,Home & Garden,Storage Bin,11,43.96,0,483.56,190.02,18.15,Gift Card,Returned,Alex Turner
+ORD-10484,2024-01-10,Mei Silva,Corporate,Partner Reseller,Europe,Netherlands,Electronics,Headphones,12,1036.8,0.15,10575.36,5208.86,37.28,Bank Transfer,Shipped,Alex Turner
+ORD-10363,2024-01-13,Chloe Chen,Consumer,Retail Store,Latin America,Brazil,Home & Garden,Plant Pot,6,139.62,0.05,795.83,264.55,13.58,Credit Card,Delivered,Jordan Lee
+ORD-10070,2024-01-17,Lucas Santos,Consumer,Partner Reseller,Europe,France,Electronics,Smartphone,9,1125.49,0,10129.41,3305.23,23.0,PayPal,Processing,Alex Turner
+ORD-10259,2024-01-20,Fatima Muller,Home Office,Partner Reseller,North America,Mexico,Home & Garden,Storage Bin,4,155.69,0,622.76,239.46,25.83,PayPal,Returned,Casey Morgan
+ORD-10202,2024-01-21,Wei Patel,Small Business,Online,Asia Pacific,Singapore,Electronics,Laptop,7,545.62,0,3819.34,1261.93,25.98,Gift Card,Cancelled,Sam Rivera
+ORD-10455,2024-01-22,Arjun Ivanov,Corporate,Phone Order,Europe,France,Furniture,Filing Cabinet,4,361.95,0.05,1375.41,513.99,31.77,Gift Card,Cancelled,Morgan Blake
+ORD-10265,2024-01-23,Sofia Park,Small Business,Online,Europe,United Kingdom,Furniture,Sofa,3,565.73,0,1697.19,479.9,9.17,Bank Transfer,Delivered,Jordan Lee
+ORD-10065,2024-01-26,Maria Nguyen,Small Business,Online,Asia Pacific,China,Furniture,Office Chair,8,601.03,0.1,4327.42,1537.22,7.9,Credit Card,Delivered,Taylor Brooks
+ORD-10049,2024-01-27,Lucas Ivanov,Home Office,Retail Store,North America,United States,Home & Garden,Rug,11,190.55,0.1,1886.44,711.43,35.05,Gift Card,Delivered,Jamie Foster
+ORD-10462,2024-01-31,Isabella Garcia,Small Business,Online,Latin America,Argentina,Electronics,Smartwatch,2,1219.06,0,2438.12,1093.52,19.87,PayPal,Processing,Alex Turner
+ORD-10381,2024-02-02,Chloe Rossi,Corporate,Retail Store,North America,Canada,Furniture,Office Chair,8,778.35,0.2,4981.44,2483.94,17.43,Credit Card,Cancelled,Morgan Blake
+ORD-10355,2024-02-04,Sven Kim,Small Business,Online,North America,Mexico,Apparel,Running Shoes,8,22.45,0,179.6,91.12,33.71,Credit Card,Returned,Taylor Brooks
+ORD-10333,2024-02-06,Aisha Kim,Home Office,Partner Reseller,North America,Canada,Office Supplies,Stapler,2,54.06,0.2,86.5,25.69,5.73,PayPal,Delivered,Taylor Brooks
+ORD-10367,2024-02-08,Isabella Andersson,Consumer,Retail Store,Latin America,Chile,Furniture,Bookshelf,10,821.79,0,8217.9,3249.24,42.48,Credit Card,Delivered,Morgan Blake
+ORD-10383,2024-02-15,Fatima Silva,Consumer,Online,North America,Canada,Home & Garden,Plant Pot,7,89.73,0.25,471.08,144.66,32.26,Gift Card,Delivered,Taylor Brooks
+ORD-10004,2024-02-16,Olivia Tanaka,Home Office,Online,Europe,France,Electronics,Smartphone,7,1306.4,0.1,8230.32,3407.16,38.03,PayPal,Delivered,Taylor Brooks
+ORD-10448,2024-02-16,James Khan,Small Business,Retail Store,North America,Mexico,Apparel,Backpack,11,20.39,0.1,201.86,89.5,27.59,PayPal,Processing,Morgan Blake
+ORD-10449,2024-02-16,Mei Rossi,Corporate,Retail Store,North America,Canada,Office Supplies,Stapler,8,36.06,0.25,216.36,78.51,14.13,Credit Card,Returned,Casey Morgan
+ORD-10182,2024-02-17,Raj Kim,Consumer,Phone Order,Latin America,Chile,Apparel,Jacket,1,29.69,0.2,23.75,11.46,13.43,Credit Card,Cancelled,Alex Turner
+ORD-10112,2024-02-19,Liam Kim,Home Office,Partner Reseller,North America,Canada,Apparel,Cap,11,107.06,0.25,883.24,410.07,3.34,Bank Transfer,Delivered,Alex Turner
+ORD-10211,2024-02-20,Aisha Silva,Corporate,Phone Order,Latin America,Chile,Office Supplies,Notebook,5,21.6,0.1,97.2,45.29,23.65,Gift Card,Shipped,Riley Bennett
+ORD-10304,2024-02-20,Diego Garcia,Home Office,Partner Reseller,Asia Pacific,Japan,Home & Garden,Plant Pot,4,10.51,0.25,31.53,8.56,37.95,Bank Transfer,Delivered,Alex Turner
+ORD-10453,2024-02-22,Priya Nguyen,Consumer,Partner Reseller,Asia Pacific,Australia,Electronics,Smartwatch,7,1279.06,0.2,7162.74,2115.98,33.96,Gift Card,Delivered,Jamie Foster
+ORD-10378,2024-02-25,Sofia Rossi,Consumer,Partner Reseller,Asia Pacific,Singapore,Furniture,Filing Cabinet,10,286.13,0.25,2145.97,1152.4,34.1,Credit Card,Cancelled,Jordan Lee
+ORD-10371,2024-02-27,Grace Santos,Corporate,Online,Asia Pacific,South Korea,Electronics,Monitor,11,221.37,0.25,1826.3,489.4,39.55,Credit Card,Delivered,Sam Rivera
+ORD-10126,2024-03-04,Olivia Yamamoto,Corporate,Retail Store,North America,Canada,Office Supplies,Printer Paper,9,25.51,0.1,206.63,70.86,29.83,PayPal,Cancelled,Jamie Foster
+ORD-10128,2024-03-04,Wei Park,Small Business,Online,Europe,Italy,Home & Garden,LED Lamp,9,39.59,0.25,267.23,137.66,11.63,Gift Card,Delivered,Sam Rivera
+ORD-10374,2024-03-05,Aisha Yamamoto,Small Business,Retail Store,North America,Canada,Furniture,Filing Cabinet,6,217.8,0,1306.8,546.77,41.88,Credit Card,Delivered,Jamie Foster
+ORD-10489,2024-03-05,Raj Garcia,Home Office,Retail Store,North America,United States,Apparel,Backpack,10,98.89,0.15,840.57,250.36,13.38,Credit Card,Delivered,Jamie Foster
+ORD-10032,2024-03-06,Arjun Smith,Small Business,Partner Reseller,Latin America,Colombia,Office Supplies,Desk Organizer,1,29.02,0.05,27.57,8.27,19.36,Credit Card,Processing,Riley Bennett
+ORD-10478,2024-03-08,Sven Kowalski,Corporate,Phone Order,Latin America,Brazil,Apparel,Jacket,1,110.51,0.1,99.46,38.17,27.62,Gift Card,Delivered,Jamie Foster
+ORD-10084,2024-03-10,Emma Chen,Consumer,Partner Reseller,Latin America,Colombia,Office Supplies,Stapler,6,36.3,0,217.8,99.51,21.98,Gift Card,Delivered,Alex Turner
+ORD-10322,2024-03-10,Diego Kim,Corporate,Retail Store,North America,United States,Office Supplies,Printer Paper,6,44.17,0.2,212.02,55.47,15.74,Credit Card,Shipped,Sam Rivera
+ORD-10038,2024-03-11,Diego Kim,Small Business,Partner Reseller,Asia Pacific,Australia,Apparel,Backpack,6,21.61,0.25,97.25,32.85,21.29,Gift Card,Shipped,Casey Morgan
+ORD-10173,2024-03-13,Sven Muller,Corporate,Online,Europe,Spain,Electronics,Smartwatch,2,1218.64,0.15,2071.69,910.99,15.57,Credit Card,Delivered,Sam Rivera
+ORD-10080,2024-03-14,Isabella Nguyen,Consumer,Partner Reseller,Latin America,Brazil,Apparel,T-Shirt,2,60.57,0.15,102.97,38.85,27.08,Credit Card,Shipped,Riley Bennett
+ORD-10059,2024-03-21,Kenji Nguyen,Corporate,Online,Latin America,Argentina,Apparel,Cap,8,25.74,0.1,185.33,76.38,31.01,Gift Card,Cancelled,Riley Bennett
+ORD-10375,2024-03-23,Arjun Muller,Corporate,Retail Store,North America,United States,Furniture,Office Chair,10,659.53,0.1,5935.77,2523.49,36.91,Bank Transfer,Processing,Jamie Foster
+ORD-10479,2024-03-26,Kenji Yamamoto,Home Office,Retail Store,Europe,Germany,Office Supplies,Desk Organizer,4,59.15,0.2,189.28,49.51,26.32,Credit Card,Delivered,Alex Turner
+ORD-10364,2024-03-29,Diego Ivanov,Home Office,Partner Reseller,Europe,Spain,Home & Garden,LED Lamp,12,180.03,0,2160.36,1024.01,22.61,Bank Transfer,Cancelled,Casey Morgan
+ORD-10389,2024-03-30,Liam Tanaka,Consumer,Phone Order,North America,Canada,Furniture,Bookshelf,2,865.77,0,1731.54,866.76,7.71,Gift Card,Delivered,Sam Rivera
+ORD-10050,2024-04-03,Mohammed Kowalski,Consumer,Partner Reseller,Latin America,Chile,Apparel,Running Shoes,2,45.32,0,90.64,40.88,32.13,Credit Card,Delivered,Riley Bennett
+ORD-10149,2024-04-03,Lucas Dubois,Consumer,Online,North America,Canada,Apparel,Running Shoes,2,93.75,0,187.5,98.21,21.1,Credit Card,Delivered,Riley Bennett
+ORD-10189,2024-04-03,Kenji Kowalski,Corporate,Online,Europe,France,Apparel,Cap,5,15.38,0.1,69.21,21.04,10.3,Gift Card,Returned,Jordan Lee
+ORD-10468,2024-04-04,Sven Andersson,Home Office,Partner Reseller,North America,Canada,Furniture,Filing Cabinet,2,256.12,0.15,435.4,151.06,19.92,Gift Card,Delivered,Jamie Foster
+ORD-10093,2024-04-11,Wei Smith,Home Office,Retail Store,Asia Pacific,Japan,Furniture,Office Chair,8,315.24,0,2521.92,812.93,22.7,PayPal,Shipped,Morgan Blake
+ORD-10230,2024-04-12,Maria Smith,Corporate,Retail Store,Europe,United Kingdom,Office Supplies,Stapler,6,48.49,0.2,232.75,76.44,6.99,Bank Transfer,Processing,Riley Bennett
+ORD-10133,2024-04-13,Sven Garcia,Corporate,Phone Order,North America,Canada,Home & Garden,Plant Pot,1,54.99,0.2,43.99,18.4,25.67,PayPal,Processing,Riley Bennett
+ORD-10075,2024-04-16,Isabella Kowalski,Consumer,Phone Order,Europe,Germany,Apparel,Jacket,6,103.2,0.15,526.32,271.34,14.7,Credit Card,Delivered,Sam Rivera
+ORD-10289,2024-04-16,Liam Muller,Corporate,Online,Asia Pacific,China,Furniture,Office Chair,7,616.96,0.1,3886.85,1870.33,33.98,Credit Card,Delivered,Riley Bennett
+ORD-10428,2024-04-19,Raj Kowalski,Small Business,Partner Reseller,Europe,Germany,Office Supplies,Whiteboard,10,25.69,0,256.9,103.5,18.74,PayPal,Cancelled,Casey Morgan
+ORD-10121,2024-04-21,Aisha Muller,Consumer,Retail Store,Europe,Germany,Electronics,Smartwatch,4,1362.52,0.05,5177.58,2766.14,20.36,Gift Card,Shipped,Jamie Foster
+ORD-10094,2024-04-23,Priya Smith,Corporate,Retail Store,Asia Pacific,Japan,Office Supplies,Notebook,7,4.77,0.25,25.04,13.3,38.14,Bank Transfer,Delivered,Morgan Blake
+ORD-10294,2024-04-23,Aisha Nguyen,Home Office,Retail Store,Latin America,Colombia,Office Supplies,Desk Organizer,6,30.54,0,183.24,92.42,43.73,Gift Card,Delivered,Alex Turner
+ORD-10427,2024-04-24,Ethan Andersson,Corporate,Partner Reseller,North America,Mexico,Home & Garden,Rug,2,56.35,0.05,107.06,39.62,35.47,PayPal,Delivered,Sam Rivera
+ORD-10373,2024-04-26,Liam Patel,Corporate,Online,Latin America,Argentina,Electronics,Smartphone,12,668.01,0.2,6412.9,2903.31,43.99,PayPal,Delivered,Riley Bennett
+ORD-10377,2024-04-30,Hannah Costa,Small Business,Retail Store,North America,Mexico,Office Supplies,Desk Organizer,8,31.44,0.05,238.94,111.6,11.14,PayPal,Processing,Alex Turner
+ORD-10011,2024-05-03,Maria Silva,Consumer,Online,Europe,Germany,Electronics,Headphones,9,80.5,0.05,688.27,257.05,3.3,Bank Transfer,Shipped,Jordan Lee
+ORD-10068,2024-05-05,Wei Kowalski,Corporate,Retail Store,Latin America,Brazil,Furniture,Sofa,1,876.3,0.15,744.86,355.25,8.29,PayPal,Delivered,Riley Bennett
+ORD-10466,2024-05-06,Ethan Santos,Corporate,Phone Order,North America,Mexico,Electronics,Monitor,12,482.04,0,5784.48,2395.1,44.28,Bank Transfer,Processing,Casey Morgan
+ORD-10400,2024-05-07,Wei Yamamoto,Home Office,Partner Reseller,Asia Pacific,India,Furniture,Filing Cabinet,11,823.57,0.05,8606.31,4660.03,35.12,Gift Card,Delivered,Casey Morgan
+ORD-10358,2024-05-09,Ethan Muller,Small Business,Phone Order,North America,Canada,Office Supplies,Printer Paper,5,37.72,0.1,169.74,92.63,7.69,PayPal,Delivered,Casey Morgan
+ORD-10384,2024-05-15,Ethan Smith,Small Business,Partner Reseller,Asia Pacific,Singapore,Furniture,Office Chair,11,93.06,0.1,921.29,461.99,22.29,PayPal,Delivered,Morgan Blake
+ORD-10260,2024-05-17,Sofia Park,Corporate,Partner Reseller,Latin America,Brazil,Apparel,Running Shoes,11,65.24,0.05,681.76,201.53,36.87,PayPal,Shipped,Sam Rivera
+ORD-10152,2024-05-18,Diego Yamamoto,Corporate,Phone Order,Asia Pacific,Australia,Apparel,Running Shoes,7,102.58,0.15,610.35,255.09,21.09,Bank Transfer,Processing,Taylor Brooks
+ORD-10198,2024-05-19,Emma Nguyen,Corporate,Retail Store,Europe,Netherlands,Apparel,Backpack,3,81.41,0.15,207.6,100.28,27.74,Credit Card,Delivered,Morgan Blake
+ORD-10405,2024-05-22,Emma Muller,Corporate,Retail Store,Latin America,Chile,Furniture,Bookshelf,2,103.58,0.05,196.8,100.64,32.16,Credit Card,Shipped,Morgan Blake
+ORD-10163,2024-05-23,Priya Park,Small Business,Partner Reseller,Europe,France,Apparel,Cap,6,15.9,0,95.4,38.6,11.2,Gift Card,Delivered,Morgan Blake
+ORD-10370,2024-05-23,Fatima Kowalski,Small Business,Online,North America,United States,Electronics,Smartwatch,4,1494.76,0.25,4484.28,1943.35,36.3,Credit Card,Shipped,Riley Bennett
+ORD-10439,2024-05-25,Carlos Yamamoto,Home Office,Phone Order,Asia Pacific,Australia,Office Supplies,Notebook,8,58.75,0.1,423.0,137.75,41.9,Gift Card,Delivered,Sam Rivera
+ORD-10471,2024-05-25,Maria Dubois,Small Business,Phone Order,Latin America,Brazil,Office Supplies,Stapler,12,14.5,0.25,130.5,71.69,26.0,Gift Card,Delivered,Riley Bennett
+ORD-10366,2024-05-27,Carlos Ivanov,Consumer,Partner Reseller,Latin America,Argentina,Home & Garden,Plant Pot,12,183.22,0.1,1978.78,1027.01,6.06,PayPal,Delivered,Alex Turner
+ORD-10361,2024-05-28,Isabella Yamamoto,Home Office,Phone Order,Latin America,Brazil,Office Supplies,Whiteboard,6,24.16,0,144.96,75.49,25.31,Bank Transfer,Delivered,Casey Morgan
+ORD-10332,2024-05-31,Sofia Rossi,Home Office,Retail Store,North America,Mexico,Office Supplies,Notebook,1,10.43,0.1,9.39,4.23,6.68,Gift Card,Delivered,Riley Bennett
+ORD-10424,2024-05-31,Sofia Kim,Corporate,Partner Reseller,Europe,Germany,Office Supplies,Whiteboard,2,25.8,0.05,49.02,14.52,14.21,PayPal,Delivered,Jordan Lee
+ORD-10425,2024-06-02,Carlos Muller,Consumer,Phone Order,Europe,United Kingdom,Furniture,Bookshelf,9,460.61,0.2,3316.39,1404.14,41.04,Bank Transfer,Delivered,Sam Rivera
+ORD-10127,2024-06-05,Mei Chen,Small Business,Phone Order,Latin America,Chile,Apparel,Cap,9,110.41,0.05,944.01,303.44,31.57,Credit Card,Delivered,Jordan Lee
+ORD-10312,2024-06-05,Liam Patel,Consumer,Partner Reseller,North America,Mexico,Apparel,Backpack,10,92.81,0,928.1,448.62,15.17,Credit Card,Delivered,Morgan Blake
+ORD-10247,2024-06-06,Mei Patel,Corporate,Retail Store,Asia Pacific,China,Electronics,Smartwatch,11,942.63,0.1,9332.04,3759.27,27.05,Credit Card,Delivered,Sam Rivera
+ORD-10091,2024-06-14,Aisha Nguyen,Consumer,Retail Store,Europe,Italy,Furniture,Bookshelf,8,122.79,0.15,834.97,320.33,7.31,Bank Transfer,Processing,Jamie Foster
+ORD-10365,2024-06-14,Fatima Tanaka,Small Business,Retail Store,North America,Canada,Electronics,Monitor,1,613.46,0.1,552.11,145.38,14.12,Gift Card,Delivered,Jordan Lee
+ORD-10215,2024-06-15,Fatima Muller,Corporate,Online,Europe,Germany,Furniture,Standing Desk,7,300.65,0,2104.55,611.61,43.62,PayPal,Shipped,Casey Morgan
+ORD-10005,2024-06-16,Carlos Chen,Corporate,Phone Order,Latin America,Colombia,Office Supplies,Desk Organizer,6,14.74,0,88.44,42.56,4.35,PayPal,Delivered,Jamie Foster
+ORD-10201,2024-06-19,Yuki Rossi,Small Business,Online,Latin America,Colombia,Apparel,Running Shoes,2,70.06,0.25,105.09,32.93,27.28,Credit Card,Processing,Casey Morgan
+ORD-10392,2024-06-19,Ethan Muller,Small Business,Phone Order,Europe,Netherlands,Home & Garden,Garden Tool Set,3,43.0,0,129.0,64.71,7.91,Bank Transfer,Returned,Sam Rivera
+ORD-10208,2024-06-20,Chloe Kim,Home Office,Online,Europe,Germany,Furniture,Office Chair,11,427.17,0.2,3759.1,1839.79,37.55,Credit Card,Delivered,Morgan Blake
+ORD-10081,2024-06-24,Emma Patel,Corporate,Phone Order,Latin America,Chile,Electronics,Monitor,4,1274.5,0.2,4078.4,1522.62,25.01,PayPal,Delivered,Jordan Lee
+ORD-10340,2024-06-28,Raj Costa,Home Office,Phone Order,North America,Canada,Electronics,Smartphone,8,1374.36,0,10994.88,3411.63,41.01,PayPal,Delivered,Jordan Lee
+ORD-10246,2024-06-30,Carlos Smith,Home Office,Partner Reseller,North America,United States,Furniture,Sofa,1,177.87,0.2,142.3,66.35,14.1,PayPal,Delivered,Alex Turner
+ORD-10183,2024-07-02,Kenji Smith,Home Office,Retail Store,Europe,Italy,Electronics,Monitor,8,149.94,0.1,1079.57,343.24,16.05,Bank Transfer,Delivered,Casey Morgan
+ORD-10194,2024-07-03,Ethan Silva,Corporate,Online,North America,Canada,Home & Garden,LED Lamp,5,13.63,0,68.15,20.95,22.81,PayPal,Delivered,Taylor Brooks
+ORD-10436,2024-07-03,Kenji Chen,Consumer,Partner Reseller,Latin America,Argentina,Electronics,Headphones,4,1465.39,0.25,4396.17,1221.26,18.52,PayPal,Shipped,Riley Bennett
+ORD-10323,2024-07-08,Wei Costa,Corporate,Partner Reseller,North America,Mexico,Home & Garden,Garden Tool Set,10,124.28,0.05,1180.66,438.13,12.7,Bank Transfer,Delivered,Sam Rivera
+ORD-10385,2024-07-08,Isabella Kim,Corporate,Online,Asia Pacific,South Korea,Apparel,T-Shirt,2,104.64,0.2,167.42,47.21,16.98,Bank Transfer,Delivered,Alex Turner
+ORD-10123,2024-07-09,Fatima Muller,Small Business,Phone Order,Asia Pacific,Australia,Electronics,Headphones,2,873.54,0.15,1485.02,689.99,44.54,PayPal,Delivered,Jordan Lee
+ORD-10143,2024-07-15,Hannah Chen,Consumer,Online,Asia Pacific,Singapore,Office Supplies,Whiteboard,7,6.58,0.25,34.54,13.14,44.59,Gift Card,Delivered,Morgan Blake
+ORD-10500,2024-07-15,Priya Nguyen,Corporate,Phone Order,Latin America,Chile,Office Supplies,Desk Organizer,11,26.91,0.05,281.21,76.97,35.05,PayPal,Delivered,Alex Turner
+ORD-10337,2024-07-17,Priya Patel,Small Business,Partner Reseller,Asia Pacific,Singapore,Apparel,Backpack,11,97.7,0,1074.7,435.85,29.34,Credit Card,Cancelled,Casey Morgan
+ORD-10191,2024-07-21,Mohammed Costa,Consumer,Partner Reseller,Latin America,Argentina,Electronics,Headphones,8,227.67,0,1821.36,909.96,27.1,Gift Card,Processing,Sam Rivera
+ORD-10228,2024-07-22,Arjun Costa,Home Office,Retail Store,Europe,France,Home & Garden,LED Lamp,7,76.72,0.1,483.34,242.58,26.02,Credit Card,Cancelled,Alex Turner
+ORD-10298,2024-07-22,Mohammed Silva,Consumer,Online,Asia Pacific,Australia,Furniture,Office Chair,7,273.49,0.15,1627.27,887.64,36.36,Gift Card,Delivered,Sam Rivera
+ORD-10171,2024-07-26,Diego Rossi,Consumer,Partner Reseller,Europe,Netherlands,Office Supplies,Printer Paper,5,52.72,0,263.6,93.22,13.52,Bank Transfer,Delivered,Taylor Brooks
+ORD-10251,2024-07-29,Priya Chen,Corporate,Phone Order,Latin America,Brazil,Furniture,Office Chair,6,456.56,0,2739.36,1434.72,5.28,Gift Card,Processing,Morgan Blake
+ORD-10393,2024-07-29,Fatima Muller,Small Business,Phone Order,North America,Mexico,Office Supplies,Stapler,8,10.58,0,84.64,33.0,8.1,PayPal,Delivered,Alex Turner
+ORD-10398,2024-07-31,Isabella Rossi,Small Business,Retail Store,Asia Pacific,India,Home & Garden,Garden Tool Set,10,20.69,0.2,165.52,86.64,20.2,PayPal,Cancelled,Sam Rivera
+ORD-10360,2024-08-03,Priya Silva,Small Business,Partner Reseller,Asia Pacific,Australia,Office Supplies,Notebook,8,5.05,0.2,32.32,13.16,23.0,Gift Card,Cancelled,Casey Morgan
+ORD-10482,2024-08-03,Priya Costa,Small Business,Online,Latin America,Chile,Electronics,Smartwatch,1,243.9,0.25,182.92,100.37,3.4,Credit Card,Delivered,Alex Turner
+ORD-10499,2024-08-03,Isabella Chen,Consumer,Retail Store,Asia Pacific,India,Furniture,Bookshelf,11,743.78,0,8181.58,2189.81,44.04,PayPal,Returned,Taylor Brooks
+ORD-10264,2024-08-04,Hannah Costa,Small Business,Retail Store,Europe,Germany,Furniture,Bookshelf,2,573.66,0.05,1089.95,463.9,16.87,PayPal,Delivered,Morgan Blake
+ORD-10239,2024-08-08,Lucas Muller,Small Business,Online,Latin America,Argentina,Office Supplies,Notebook,1,45.91,0,45.91,14.62,21.92,Credit Card,Shipped,Morgan Blake
+ORD-10266,2024-08-09,Hannah Park,Home Office,Retail Store,Latin America,Colombia,Apparel,Jacket,7,34.13,0,238.91,74.45,37.46,Bank Transfer,Delivered,Jamie Foster
+ORD-10346,2024-08-17,James Chen,Small Business,Online,Europe,Italy,Office Supplies,Stapler,12,24.74,0.15,252.35,79.08,40.06,Bank Transfer,Delivered,Jamie Foster
+ORD-10043,2024-08-20,Liam Costa,Consumer,Online,Asia Pacific,Japan,Office Supplies,Notebook,3,43.07,0.1,116.29,62.37,5.29,Bank Transfer,Delivered,Jamie Foster
+ORD-10295,2024-08-26,Arjun Garcia,Home Office,Online,North America,United States,Electronics,Monitor,7,364.92,0.1,2299.0,722.54,23.93,PayPal,Delivered,Alex Turner
+ORD-10300,2024-08-26,Fatima Ivanov,Home Office,Partner Reseller,Asia Pacific,China,Office Supplies,Whiteboard,1,44.52,0.2,35.62,15.76,8.66,PayPal,Cancelled,Sam Rivera
+ORD-10379,2024-08-28,Grace Dubois,Corporate,Partner Reseller,Latin America,Chile,Apparel,Jacket,6,92.18,0.05,525.43,166.2,16.7,PayPal,Delivered,Jordan Lee
+ORD-10457,2024-08-28,Lucas Garcia,Consumer,Phone Order,Europe,Italy,Electronics,Laptop,5,570.24,0.15,2423.52,840.77,10.34,Gift Card,Processing,Jordan Lee
+ORD-10036,2024-09-01,Grace Khan,Corporate,Phone Order,Europe,Spain,Electronics,Tablet,8,1424.25,0.1,10254.6,3280.76,10.05,Credit Card,Shipped,Alex Turner
+ORD-10162,2024-09-01,Sofia Costa,Corporate,Retail Store,Asia Pacific,Australia,Furniture,Bookshelf,9,648.62,0.2,4670.06,1982.57,8.79,Gift Card,Delivered,Casey Morgan
+ORD-10348,2024-09-01,Isabella Santos,Home Office,Retail Store,Europe,Italy,Furniture,Filing Cabinet,6,394.73,0.05,2249.96,688.09,27.82,PayPal,Processing,Jordan Lee
+ORD-10138,2024-09-02,Aisha Costa,Home Office,Retail Store,Asia Pacific,Singapore,Apparel,Backpack,6,68.7,0.1,370.98,174.93,24.54,Bank Transfer,Delivered,Riley Bennett
+ORD-10214,2024-09-04,Arjun Chen,Home Office,Online,Asia Pacific,India,Home & Garden,Storage Bin,8,42.1,0.15,286.28,127.89,38.18,Gift Card,Delivered,Alex Turner
+ORD-10109,2024-09-07,Liam Patel,Home Office,Phone Order,Latin America,Chile,Apparel,T-Shirt,3,85.75,0.25,192.94,82.06,22.51,Gift Card,Delivered,Sam Rivera
+ORD-10179,2024-09-07,James Muller,Consumer,Retail Store,North America,Canada,Electronics,Monitor,1,937.83,0.1,844.05,295.57,30.64,Gift Card,Delivered,Riley Bennett
+ORD-10045,2024-09-11,Emma Santos,Small Business,Phone Order,North America,Mexico,Apparel,Cap,10,75.57,0.05,717.91,227.79,18.98,Credit Card,Cancelled,Jordan Lee
+ORD-10256,2024-09-13,Wei Tanaka,Home Office,Partner Reseller,North America,United States,Home & Garden,Storage Bin,6,190.7,0,1144.2,398.88,12.85,Gift Card,Delivered,Riley Bennett
+ORD-10042,2024-09-14,Ethan Park,Home Office,Online,Europe,United Kingdom,Furniture,Bookshelf,9,178.03,0,1602.27,789.18,34.02,PayPal,Delivered,Casey Morgan
+ORD-10051,2024-09-15,Sven Costa,Small Business,Online,Asia Pacific,Australia,Apparel,Cap,1,100.74,0.25,75.56,32.19,10.88,PayPal,Delivered,Casey Morgan
+ORD-10317,2024-09-18,Mohammed Kim,Home Office,Online,Europe,United Kingdom,Office Supplies,Printer Paper,10,47.77,0.1,429.93,229.61,30.5,Credit Card,Delivered,Casey Morgan
+ORD-10476,2024-09-18,Aisha Patel,Corporate,Partner Reseller,North America,United States,Office Supplies,Whiteboard,1,41.36,0.15,35.16,17.42,32.96,Bank Transfer,Delivered,Casey Morgan
+ORD-10313,2024-09-25,Ethan Tanaka,Corporate,Retail Store,North America,Canada,Home & Garden,Storage Bin,3,156.57,0,469.71,190.57,11.32,Credit Card,Delivered,Casey Morgan
+ORD-10019,2024-09-27,Carlos Park,Small Business,Phone Order,North America,United States,Home & Garden,LED Lamp,10,60.29,0.05,572.76,191.71,11.55,Credit Card,Shipped,Jordan Lee
+ORD-10195,2024-09-29,Olivia Santos,Consumer,Phone Order,North America,United States,Home & Garden,Storage Bin,3,76.12,0,228.36,109.39,16.36,PayPal,Shipped,Taylor Brooks
+ORD-10296,2024-09-29,Yuki Andersson,Small Business,Retail Store,Latin America,Brazil,Home & Garden,Storage Bin,5,42.87,0.2,171.48,51.71,8.12,Credit Card,Processing,Taylor Brooks
+ORD-10461,2024-09-29,Liam Dubois,Small Business,Partner Reseller,Asia Pacific,South Korea,Apparel,Running Shoes,4,79.24,0,316.96,102.71,25.25,Gift Card,Processing,Riley Bennett
+ORD-10151,2024-10-02,Carlos Silva,Small Business,Retail Store,Asia Pacific,Singapore,Apparel,Jacket,7,16.96,0.1,106.85,45.27,23.34,Gift Card,Delivered,Jordan Lee
+ORD-10212,2024-10-02,Lucas Rossi,Consumer,Phone Order,Latin America,Brazil,Furniture,Filing Cabinet,7,253.34,0.25,1330.03,428.47,39.42,Gift Card,Processing,Sam Rivera
+ORD-10282,2024-10-02,Carlos Ivanov,Corporate,Retail Store,Latin America,Chile,Office Supplies,Printer Paper,4,30.93,0.2,98.98,33.63,18.64,PayPal,Processing,Jordan Lee
+ORD-10145,2024-10-04,Ethan Muller,Small Business,Online,North America,United States,Office Supplies,Desk Organizer,1,34.68,0,34.68,9.41,16.21,Bank Transfer,Returned,Sam Rivera
+ORD-10403,2024-10-04,Isabella Patel,Corporate,Online,Asia Pacific,Australia,Home & Garden,Rug,3,75.51,0,226.53,115.28,14.82,PayPal,Processing,Sam Rivera
+ORD-10076,2024-10-06,Wei Park,Corporate,Partner Reseller,Asia Pacific,Singapore,Office Supplies,Notebook,3,12.52,0.2,30.05,15.9,34.12,Gift Card,Returned,Jamie Foster
+ORD-10343,2024-10-07,Mei Nguyen,Corporate,Retail Store,North America,United States,Home & Garden,Rug,4,106.7,0.15,362.78,139.74,14.38,Credit Card,Cancelled,Casey Morgan
+ORD-10072,2024-10-08,Diego Kowalski,Corporate,Partner Reseller,Asia Pacific,India,Home & Garden,Rug,9,64.62,0.2,465.26,242.05,32.47,Gift Card,Processing,Taylor Brooks
+ORD-10235,2024-10-11,Wei Costa,Small Business,Phone Order,North America,Mexico,Furniture,Sofa,7,607.52,0.05,4040.01,2126.46,21.66,Credit Card,Delivered,Jamie Foster
+ORD-10485,2024-10-14,Sofia Kowalski,Corporate,Retail Store,Latin America,Argentina,Electronics,Smartphone,11,1477.18,0.2,12999.18,6716.88,14.65,Credit Card,Delivered,Sam Rivera
+ORD-10028,2024-10-17,Sven Chen,Small Business,Partner Reseller,Asia Pacific,Australia,Furniture,Bookshelf,4,264.21,0,1056.84,573.52,13.28,PayPal,Delivered,Morgan Blake
+ORD-10498,2024-10-17,Aisha Smith,Corporate,Partner Reseller,Europe,Germany,Office Supplies,Printer Paper,9,21.71,0.05,185.62,92.15,3.9,Credit Card,Processing,Riley Bennett
+ORD-10047,2024-10-22,Carlos Muller,Consumer,Online,Asia Pacific,South Korea,Apparel,T-Shirt,5,85.61,0.05,406.65,171.79,25.87,PayPal,Shipped,Casey Morgan
+ORD-10357,2024-10-23,Maria Nguyen,Consumer,Phone Order,Europe,United Kingdom,Home & Garden,Garden Tool Set,10,147.58,0.1,1328.22,706.05,22.87,Gift Card,Delivered,Jordan Lee
+ORD-10008,2024-10-27,Aisha Nguyen,Corporate,Retail Store,Latin America,Argentina,Apparel,T-Shirt,12,114.92,0.1,1241.14,320.75,35.0,Bank Transfer,Delivered,Sam Rivera
+ORD-10041,2024-10-28,Priya Patel,Home Office,Partner Reseller,Europe,Spain,Furniture,Bookshelf,6,624.45,0.25,2810.03,1078.93,17.44,Bank Transfer,Returned,Casey Morgan
+ORD-10033,2024-11-01,Raj Andersson,Corporate,Partner Reseller,Latin America,Colombia,Home & Garden,Rug,4,161.57,0.25,484.71,234.68,21.31,PayPal,Delivered,Alex Turner
+ORD-10217,2024-11-01,Diego Nguyen,Corporate,Retail Store,North America,Canada,Electronics,Headphones,11,1483.12,0.15,13867.17,4043.01,13.97,PayPal,Shipped,Alex Turner
+ORD-10254,2024-11-01,Wei Nguyen,Corporate,Phone Order,Asia Pacific,Australia,Home & Garden,Rug,1,35.14,0,35.14,13.29,19.55,PayPal,Delivered,Morgan Blake
+ORD-10351,2024-11-02,Priya Garcia,Consumer,Phone Order,Asia Pacific,India,Office Supplies,Notebook,10,35.8,0.2,286.4,84.69,38.81,Credit Card,Delivered,Casey Morgan
+ORD-10407,2024-11-04,Grace Kim,Home Office,Phone Order,North America,United States,Electronics,Tablet,4,347.83,0,1391.32,485.32,4.23,PayPal,Delivered,Taylor Brooks
+ORD-10452,2024-11-04,James Ivanov,Corporate,Retail Store,Latin America,Argentina,Apparel,Backpack,3,12.4,0,37.2,12.22,21.7,Bank Transfer,Delivered,Morgan Blake
+ORD-10395,2024-11-11,Yuki Kim,Corporate,Online,North America,Canada,Home & Garden,LED Lamp,2,93.63,0.15,159.17,84.92,29.94,Credit Card,Delivered,Jamie Foster
+ORD-10494,2024-11-12,Maria Dubois,Home Office,Retail Store,Asia Pacific,Singapore,Office Supplies,Notebook,11,32.03,0,352.33,187.72,24.3,PayPal,Processing,Taylor Brooks
+ORD-10037,2024-11-15,Chloe Khan,Consumer,Phone Order,Latin America,Colombia,Furniture,Office Chair,11,565.52,0.05,5909.68,3069.66,35.44,Gift Card,Processing,Riley Bennett
+ORD-10321,2024-11-15,Lucas Muller,Small Business,Retail Store,Asia Pacific,India,Home & Garden,LED Lamp,3,47.7,0.05,135.94,39.59,15.98,PayPal,Shipped,Riley Bennett
+ORD-10440,2024-11-19,Arjun Ivanov,Small Business,Online,Latin America,Argentina,Home & Garden,Storage Bin,3,18.22,0,54.66,26.29,4.51,Gift Card,Delivered,Alex Turner
+ORD-10488,2024-11-19,Wei Silva,Corporate,Retail Store,North America,Canada,Furniture,Bookshelf,10,147.08,0,1470.8,372.0,12.48,Bank Transfer,Shipped,Casey Morgan
+ORD-10100,2024-11-24,Grace Johnson,Small Business,Phone Order,North America,United States,Office Supplies,Stapler,10,19.78,0.2,158.24,79.12,21.64,Credit Card,Delivered,Jordan Lee
+ORD-10039,2024-11-26,Fatima Tanaka,Home Office,Phone Order,Europe,United Kingdom,Office Supplies,Whiteboard,8,16.14,0.2,103.3,46.39,23.76,Bank Transfer,Delivered,Casey Morgan
+ORD-10420,2024-11-26,Chloe Nguyen,Home Office,Partner Reseller,North America,Canada,Electronics,Smartwatch,6,1028.91,0.25,4630.09,1848.19,35.13,PayPal,Delivered,Jamie Foster
+ORD-10444,2024-11-26,Mohammed Chen,Consumer,Retail Store,North America,Mexico,Electronics,Tablet,7,1430.26,0,10011.82,4308.51,10.48,PayPal,Returned,Morgan Blake
+ORD-10328,2024-11-27,Diego Rossi,Consumer,Online,Latin America,Brazil,Furniture,Filing Cabinet,12,564.06,0.05,6430.28,1834.14,6.79,Credit Card,Delivered,Jamie Foster
+ORD-10124,2024-12-04,Sofia Yamamoto,Small Business,Partner Reseller,Europe,Netherlands,Apparel,Running Shoes,1,89.05,0.15,75.69,23.67,26.85,Bank Transfer,Processing,Jordan Lee
+ORD-10222,2024-12-06,Sven Chen,Corporate,Partner Reseller,Europe,France,Electronics,Laptop,4,705.48,0,2821.92,1064.19,9.65,Gift Card,Processing,Morgan Blake
+ORD-10087,2024-12-07,Priya Andersson,Home Office,Retail Store,North America,Mexico,Furniture,Bookshelf,11,334.39,0.2,2942.63,1504.61,32.77,Credit Card,Delivered,Morgan Blake
+ORD-10170,2024-12-11,Aisha Rossi,Small Business,Partner Reseller,Europe,Italy,Apparel,Running Shoes,1,108.36,0,108.36,56.36,35.92,Credit Card,Delivered,Morgan Blake
+ORD-10419,2024-12-11,Arjun Costa,Consumer,Phone Order,Europe,United Kingdom,Home & Garden,Garden Tool Set,11,15.18,0.2,133.58,50.7,40.86,Gift Card,Delivered,Morgan Blake
+ORD-10054,2024-12-14,Raj Kowalski,Small Business,Partner Reseller,Asia Pacific,Australia,Office Supplies,Stapler,10,50.57,0.25,379.28,110.15,21.75,Bank Transfer,Delivered,Taylor Brooks
+ORD-10077,2024-12-15,Maria Chen,Home Office,Partner Reseller,Europe,France,Office Supplies,Stapler,10,47.06,0,470.6,134.12,9.53,Gift Card,Processing,Jamie Foster
+ORD-10241,2024-12-17,Grace Kowalski,Corporate,Retail Store,Asia Pacific,India,Furniture,Standing Desk,12,418.45,0.1,4519.26,1342.57,26.01,PayPal,Delivered,Casey Morgan
+ORD-10287,2024-12-17,Olivia Santos,Small Business,Partner Reseller,Europe,France,Office Supplies,Stapler,10,43.21,0.2,345.68,161.99,21.69,PayPal,Processing,Sam Rivera
+ORD-10025,2024-12-19,Mei Kowalski,Corporate,Phone Order,Asia Pacific,India,Home & Garden,Rug,10,30.2,0.05,286.9,135.87,32.77,Gift Card,Delivered,Jordan Lee
+ORD-10397,2024-12-19,Sofia Dubois,Small Business,Retail Store,Asia Pacific,Singapore,Apparel,Cap,12,19.64,0.25,176.76,57.9,20.46,Credit Card,Delivered,Sam Rivera
+ORD-10234,2024-12-20,Sofia Chen,Small Business,Phone Order,Latin America,Argentina,Home & Garden,Rug,11,18.48,0,203.28,80.97,22.71,PayPal,Delivered,Riley Bennett
+ORD-10336,2024-12-24,Aisha Patel,Home Office,Partner Reseller,Europe,United Kingdom,Furniture,Bookshelf,2,288.62,0.1,519.52,238.93,26.1,Credit Card,Processing,Sam Rivera
+ORD-10275,2024-12-27,Priya Santos,Home Office,Phone Order,Latin America,Colombia,Home & Garden,LED Lamp,12,107.41,0,1288.92,353.48,26.08,Bank Transfer,Shipped,Taylor Brooks
+ORD-10192,2024-12-28,Fatima Dubois,Small Business,Online,Europe,Germany,Office Supplies,Stapler,3,27.87,0,83.61,30.58,28.91,Credit Card,Shipped,Casey Morgan
+ORD-10220,2024-12-29,Fatima Garcia,Consumer,Partner Reseller,Europe,Netherlands,Office Supplies,Whiteboard,6,47.71,0.15,243.32,114.81,15.35,PayPal,Processing,Jordan Lee
+ORD-10413,2024-12-30,Liam Smith,Consumer,Online,Latin America,Colombia,Apparel,Cap,8,40.68,0,325.44,167.06,23.55,Credit Card,Delivered,Jamie Foster
+ORD-10308,2025-01-03,Emma Silva,Corporate,Phone Order,Latin America,Colombia,Apparel,T-Shirt,5,89.89,0,449.45,177.41,44.72,Credit Card,Delivered,Casey Morgan
+ORD-10285,2025-01-04,Ethan Santos,Corporate,Phone Order,Asia Pacific,China,Home & Garden,Garden Tool Set,7,74.07,0,518.49,230.56,31.54,Bank Transfer,Shipped,Riley Bennett
+ORD-10402,2025-01-04,Aisha Yamamoto,Corporate,Phone Order,Latin America,Chile,Electronics,Headphones,11,472.91,0,5202.01,2059.16,35.19,Bank Transfer,Delivered,Casey Morgan
+ORD-10102,2025-01-14,James Rossi,Small Business,Partner Reseller,Asia Pacific,India,Electronics,Tablet,6,249.66,0.2,1198.37,546.08,14.7,Credit Card,Returned,Casey Morgan
+ORD-10280,2025-01-15,Lucas Dubois,Small Business,Online,Asia Pacific,India,Home & Garden,Garden Tool Set,9,102.23,0.1,828.06,356.59,34.51,Bank Transfer,Delivered,Morgan Blake
+ORD-10299,2025-01-15,Maria Johnson,Corporate,Online,North America,United States,Furniture,Filing Cabinet,10,154.95,0.15,1317.08,356.59,44.87,PayPal,Shipped,Jamie Foster
+ORD-10388,2025-01-16,Emma Ivanov,Home Office,Online,Asia Pacific,India,Apparel,Cap,2,67.94,0.25,101.91,34.35,31.49,PayPal,Delivered,Jamie Foster
+ORD-10114,2025-01-17,Raj Costa,Small Business,Retail Store,Asia Pacific,China,Office Supplies,Printer Paper,9,13.55,0.2,97.56,39.02,4.9,PayPal,Delivered,Riley Bennett
+ORD-10131,2025-01-19,Grace Silva,Consumer,Online,North America,Mexico,Home & Garden,LED Lamp,6,133.48,0,800.88,397.6,25.56,Bank Transfer,Delivered,Jamie Foster
+ORD-10477,2025-01-19,Aisha Kim,Consumer,Phone Order,North America,United States,Furniture,Standing Desk,10,696.75,0.05,6619.12,2661.59,34.6,Gift Card,Delivered,Morgan Blake
+ORD-10263,2025-01-20,Liam Ivanov,Corporate,Retail Store,Europe,Italy,Apparel,Running Shoes,6,99.9,0.25,449.55,140.35,40.26,Credit Card,Delivered,Casey Morgan
+ORD-10144,2025-01-21,Aisha Park,Consumer,Retail Store,Latin America,Brazil,Electronics,Smartwatch,8,298.51,0.2,1910.46,681.13,16.91,PayPal,Returned,Jamie Foster
+ORD-10193,2025-01-27,Priya Costa,Home Office,Phone Order,Europe,Spain,Furniture,Sofa,9,284.3,0,2558.7,647.81,35.84,Gift Card,Delivered,Casey Morgan
+ORD-10204,2025-02-06,Aisha Smith,Corporate,Retail Store,Latin America,Argentina,Electronics,Headphones,2,55.53,0.1,99.95,30.27,29.25,Bank Transfer,Delivered,Jordan Lee
+ORD-10034,2025-02-07,Raj Andersson,Home Office,Partner Reseller,North America,United States,Apparel,Jacket,3,105.35,0,316.05,149.16,16.75,Bank Transfer,Delivered,Jordan Lee
+ORD-10473,2025-02-08,Ethan Nguyen,Consumer,Online,Asia Pacific,China,Electronics,Smartwatch,12,1340.56,0.1,14478.05,5157.44,39.37,PayPal,Shipped,Alex Turner
+ORD-10006,2025-02-09,Olivia Silva,Corporate,Partner Reseller,Latin America,Argentina,Office Supplies,Printer Paper,9,16.3,0.1,132.03,43.03,20.99,Credit Card,Delivered,Alex Turner
+ORD-10113,2025-02-14,Chloe Yamamoto,Consumer,Retail Store,North America,Mexico,Home & Garden,LED Lamp,5,77.6,0,388.0,168.43,21.91,Credit Card,Delivered,Morgan Blake
+ORD-10125,2025-02-14,Raj Nguyen,Consumer,Phone Order,North America,United States,Furniture,Filing Cabinet,4,345.35,0,1381.4,651.7,12.89,Bank Transfer,Processing,Taylor Brooks
+ORD-10303,2025-02-23,Noah Khan,Consumer,Partner Reseller,Asia Pacific,Australia,Electronics,Tablet,1,1005.39,0,1005.39,499.08,4.31,Gift Card,Delivered,Casey Morgan
+ORD-10376,2025-02-25,Emma Johnson,Small Business,Online,Europe,Germany,Home & Garden,Plant Pot,12,122.48,0.25,1102.32,403.87,6.7,PayPal,Processing,Taylor Brooks
+ORD-10141,2025-02-26,Hannah Yamamoto,Small Business,Partner Reseller,Europe,Netherlands,Furniture,Office Chair,1,659.88,0.05,626.89,249.68,18.67,Credit Card,Shipped,Alex Turner
+ORD-10073,2025-02-27,Hannah Costa,Consumer,Online,Asia Pacific,India,Apparel,Backpack,6,90.26,0.2,433.25,197.67,13.71,Credit Card,Returned,Jordan Lee
+ORD-10139,2025-02-27,Ethan Silva,Small Business,Phone Order,North America,Mexico,Furniture,Standing Desk,9,93.3,0.2,671.76,309.98,11.24,Bank Transfer,Delivered,Jamie Foster
+ORD-10248,2025-03-01,Chloe Park,Small Business,Online,Latin America,Brazil,Office Supplies,Printer Paper,11,53.24,0.15,497.79,224.34,15.33,Credit Card,Returned,Riley Bennett
+ORD-10442,2025-03-02,Ethan Khan,Home Office,Retail Store,North America,United States,Apparel,T-Shirt,1,107.61,0.1,96.85,33.47,31.59,Credit Card,Delivered,Jordan Lee
+ORD-10172,2025-03-15,James Patel,Consumer,Partner Reseller,North America,Mexico,Electronics,Laptop,2,359.46,0,718.92,267.36,24.82,PayPal,Delivered,Jamie Foster
+ORD-10223,2025-03-15,Lucas Tanaka,Consumer,Online,Latin America,Colombia,Electronics,Laptop,12,823.98,0.15,8404.6,2227.05,40.46,PayPal,Processing,Taylor Brooks
+ORD-10074,2025-03-18,Sven Dubois,Consumer,Phone Order,North America,Mexico,Office Supplies,Printer Paper,10,34.27,0.15,291.3,101.66,20.25,Bank Transfer,Cancelled,Riley Bennett
+ORD-10231,2025-03-24,Mohammed Costa,Small Business,Retail Store,Asia Pacific,South Korea,Electronics,Headphones,3,1231.7,0,3695.1,1588.03,43.42,Credit Card,Delivered,Sam Rivera
+ORD-10086,2025-03-25,Aisha Kowalski,Small Business,Phone Order,Europe,France,Office Supplies,Stapler,6,24.47,0,146.82,45.99,30.19,Bank Transfer,Delivered,Sam Rivera
+ORD-10166,2025-03-25,Noah Garcia,Home Office,Phone Order,North America,United States,Furniture,Sofa,12,645.09,0.2,6192.86,3097.7,8.85,PayPal,Delivered,Riley Bennett
+ORD-10274,2025-03-25,Diego Smith,Corporate,Online,North America,United States,Home & Garden,Garden Tool Set,10,45.39,0.05,431.2,157.58,31.31,Bank Transfer,Delivered,Morgan Blake
+ORD-10325,2025-03-25,Ethan Yamamoto,Consumer,Online,Latin America,Chile,Apparel,Jacket,1,57.03,0.2,45.62,15.23,19.55,Gift Card,Cancelled,Jamie Foster
+ORD-10174,2025-03-26,Sven Khan,Small Business,Phone Order,Asia Pacific,South Korea,Furniture,Standing Desk,10,834.31,0.25,6257.32,1827.21,6.64,Gift Card,Delivered,Riley Bennett
+ORD-10206,2025-03-26,Sven Santos,Corporate,Online,Latin America,Chile,Furniture,Bookshelf,3,542.68,0,1628.04,853.56,17.44,Gift Card,Delivered,Morgan Blake
+ORD-10409,2025-03-26,Kenji Khan,Corporate,Partner Reseller,North America,United States,Office Supplies,Whiteboard,9,26.6,0.05,227.43,97.28,34.98,Bank Transfer,Delivered,Casey Morgan
+ORD-10233,2025-03-27,Lucas Yamamoto,Consumer,Partner Reseller,North America,United States,Office Supplies,Stapler,11,2.72,0.05,28.42,7.29,31.13,PayPal,Delivered,Jamie Foster
+ORD-10441,2025-03-28,Sofia Rossi,Home Office,Retail Store,Asia Pacific,South Korea,Home & Garden,Storage Bin,2,95.89,0,191.78,98.36,6.93,Credit Card,Processing,Sam Rivera
+ORD-10014,2025-03-29,Maria Rossi,Small Business,Online,North America,United States,Home & Garden,Plant Pot,4,194.05,0,776.2,332.27,23.22,Gift Card,Processing,Casey Morgan
+ORD-10090,2025-03-30,Ethan Ivanov,Small Business,Phone Order,Asia Pacific,South Korea,Apparel,Jacket,5,68.74,0.25,257.78,71.87,11.15,Gift Card,Shipped,Morgan Blake
+ORD-10157,2025-04-01,Wei Khan,Corporate,Phone Order,Asia Pacific,India,Apparel,Cap,3,85.95,0.15,219.17,54.94,23.28,Bank Transfer,Delivered,Riley Bennett
+ORD-10249,2025-04-01,Carlos Kowalski,Home Office,Online,Europe,Netherlands,Home & Garden,Rug,1,54.81,0.15,46.59,20.29,36.44,Bank Transfer,Delivered,Jamie Foster
+ORD-10085,2025-04-05,Arjun Chen,Corporate,Online,Europe,France,Home & Garden,Storage Bin,1,104.26,0.25,78.19,40.58,40.76,PayPal,Delivered,Jamie Foster
+ORD-10252,2025-04-06,Ethan Garcia,Consumer,Phone Order,Latin America,Colombia,Office Supplies,Notebook,2,24.59,0,49.18,17.59,28.97,Credit Card,Processing,Casey Morgan
+ORD-10432,2025-04-09,Wei Khan,Corporate,Retail Store,North America,United States,Furniture,Filing Cabinet,3,728.64,0,2185.92,939.51,29.39,PayPal,Delivered,Morgan Blake
+ORD-10158,2025-04-11,Aisha Smith,Home Office,Online,Europe,Italy,Apparel,Running Shoes,8,62.38,0.25,374.28,170.05,15.61,PayPal,Processing,Taylor Brooks
+ORD-10181,2025-04-11,Aisha Silva,Consumer,Online,Asia Pacific,Australia,Apparel,Cap,3,28.36,0.1,76.57,24.35,40.56,Credit Card,Shipped,Taylor Brooks
+ORD-10186,2025-04-14,Liam Silva,Home Office,Phone Order,North America,Mexico,Electronics,Tablet,7,243.6,0,1705.2,635.07,5.62,Bank Transfer,Shipped,Morgan Blake
+ORD-10416,2025-04-15,Fatima Khan,Small Business,Partner Reseller,North America,United States,Furniture,Sofa,5,620.72,0,3103.6,1249.37,8.65,Gift Card,Shipped,Sam Rivera
+ORD-10297,2025-04-16,Priya Park,Consumer,Phone Order,North America,Mexico,Furniture,Filing Cabinet,5,399.08,0.15,1696.09,852.14,33.59,Gift Card,Shipped,Casey Morgan
+ORD-10443,2025-04-16,Grace Santos,Corporate,Retail Store,Latin America,Colombia,Office Supplies,Desk Organizer,6,40.16,0,240.96,85.09,42.94,Credit Card,Delivered,Casey Morgan
+ORD-10347,2025-04-17,Priya Chen,Home Office,Partner Reseller,Europe,France,Office Supplies,Desk Organizer,9,35.33,0,317.97,136.18,33.0,Gift Card,Delivered,Morgan Blake
+ORD-10013,2025-04-23,Isabella Rossi,Home Office,Partner Reseller,North America,Mexico,Electronics,Laptop,6,633.8,0,3802.8,1807.86,10.99,PayPal,Delivered,Jordan Lee
+ORD-10035,2025-04-26,Sven Smith,Corporate,Retail Store,North America,Mexico,Home & Garden,Plant Pot,6,199.98,0.05,1139.89,404.61,35.81,Credit Card,Shipped,Sam Rivera
+ORD-10273,2025-04-27,Diego Park,Home Office,Online,Latin America,Brazil,Electronics,Headphones,2,371.57,0,743.14,247.21,42.09,PayPal,Delivered,Jamie Foster
+ORD-10380,2025-04-27,Noah Johnson,Home Office,Retail Store,Latin America,Brazil,Apparel,Jacket,10,33.78,0.25,253.35,125.81,18.69,Bank Transfer,Delivered,Sam Rivera
+ORD-10356,2025-04-28,Fatima Santos,Home Office,Partner Reseller,North America,Mexico,Home & Garden,Rug,1,68.0,0.15,57.8,22.51,3.45,Bank Transfer,Delivered,Casey Morgan
+ORD-10205,2025-04-29,Mohammed Johnson,Corporate,Partner Reseller,North America,Canada,Apparel,Backpack,11,63.8,0.1,631.62,330.12,25.85,Credit Card,Delivered,Casey Morgan
+ORD-10390,2025-04-30,Diego Patel,Small Business,Phone Order,Asia Pacific,India,Apparel,T-Shirt,2,42.07,0,84.14,24.27,12.76,Bank Transfer,Cancelled,Jamie Foster
+ORD-10446,2025-05-02,Maria Park,Home Office,Partner Reseller,Asia Pacific,China,Home & Garden,Storage Bin,7,25.32,0.15,150.65,55.11,21.23,PayPal,Delivered,Sam Rivera
+ORD-10122,2025-05-03,Sofia Dubois,Corporate,Online,Europe,France,Office Supplies,Stapler,2,39.46,0.05,74.97,29.2,33.37,Gift Card,Cancelled,Jamie Foster
+ORD-10044,2025-05-05,Diego Garcia,Corporate,Retail Store,Latin America,Chile,Furniture,Office Chair,8,287.03,0,2296.24,696.6,19.83,Bank Transfer,Delivered,Jordan Lee
+ORD-10153,2025-05-05,Carlos Andersson,Home Office,Online,Asia Pacific,Japan,Apparel,Running Shoes,12,42.06,0.25,378.54,98.3,35.84,PayPal,Delivered,Sam Rivera
+ORD-10493,2025-05-07,Sven Johnson,Home Office,Retail Store,Latin America,Argentina,Furniture,Standing Desk,1,733.56,0,733.56,334.87,21.31,PayPal,Returned,Jamie Foster
+ORD-10291,2025-05-08,Liam Johnson,Home Office,Partner Reseller,Europe,United Kingdom,Apparel,Running Shoes,5,50.24,0,251.2,115.28,3.0,Credit Card,Processing,Jamie Foster
+ORD-10480,2025-05-08,Grace Kowalski,Consumer,Phone Order,Asia Pacific,China,Office Supplies,Whiteboard,11,59.96,0.05,626.58,234.62,24.43,Credit Card,Delivered,Morgan Blake
+ORD-10250,2025-05-13,Diego Chen,Corporate,Retail Store,North America,Canada,Furniture,Bookshelf,2,501.39,0,1002.78,259.23,35.48,Gift Card,Delivered,Jordan Lee
+ORD-10169,2025-05-14,Isabella Tanaka,Small Business,Phone Order,Asia Pacific,China,Electronics,Smartwatch,8,185.06,0.15,1258.41,371.19,36.42,Bank Transfer,Delivered,Casey Morgan
+ORD-10372,2025-05-15,Mei Khan,Small Business,Retail Store,North America,Canada,Home & Garden,Plant Pot,11,54.6,0,600.6,327.74,29.57,Credit Card,Cancelled,Jordan Lee
+ORD-10225,2025-05-16,Aisha Johnson,Consumer,Partner Reseller,Asia Pacific,Japan,Furniture,Filing Cabinet,4,95.68,0,382.72,186.25,3.92,Bank Transfer,Delivered,Alex Turner
+ORD-10335,2025-05-19,Noah Yamamoto,Small Business,Partner Reseller,Europe,Italy,Furniture,Bookshelf,1,882.99,0,882.99,479.29,29.27,Credit Card,Delivered,Riley Bennett
+ORD-10029,2025-05-21,Kenji Garcia,Corporate,Online,Latin America,Argentina,Furniture,Office Chair,2,811.98,0.2,1299.17,629.25,36.77,Gift Card,Shipped,Sam Rivera
+ORD-10447,2025-05-22,Yuki Park,Small Business,Phone Order,North America,Canada,Apparel,Backpack,8,18.71,0.1,134.71,68.08,8.37,Credit Card,Cancelled,Jordan Lee
+ORD-10056,2025-05-29,Liam Chen,Small Business,Phone Order,Asia Pacific,Australia,Apparel,T-Shirt,8,67.85,0,542.8,180.9,20.22,Bank Transfer,Shipped,Morgan Blake
+ORD-10404,2025-05-30,Liam Smith,Small Business,Phone Order,Europe,Germany,Home & Garden,Rug,9,140.41,0,1263.69,536.81,41.47,Bank Transfer,Delivered,Riley Bennett
+ORD-10438,2025-05-31,Raj Ivanov,Corporate,Online,Latin America,Chile,Apparel,Running Shoes,9,24.55,0,220.95,83.04,13.93,Bank Transfer,Delivered,Morgan Blake
+ORD-10002,2025-06-01,Arjun Dubois,Home Office,Phone Order,North America,Mexico,Furniture,Sofa,8,424.01,0.1,3052.87,937.75,3.27,PayPal,Processing,Taylor Brooks
+ORD-10408,2025-06-01,James Khan,Corporate,Partner Reseller,North America,United States,Home & Garden,Plant Pot,12,109.54,0.05,1248.76,325.58,10.21,Bank Transfer,Processing,Sam Rivera
+ORD-10417,2025-06-02,Ethan Garcia,Corporate,Phone Order,North America,Canada,Office Supplies,Whiteboard,7,36.28,0.15,215.87,69.09,14.95,Bank Transfer,Delivered,Alex Turner
+ORD-10088,2025-06-04,Liam Muller,Consumer,Phone Order,Asia Pacific,Australia,Office Supplies,Stapler,4,12.46,0.15,42.36,11.26,23.42,Credit Card,Delivered,Alex Turner
+ORD-10082,2025-06-06,Yuki Khan,Corporate,Phone Order,North America,Mexico,Home & Garden,LED Lamp,6,181.94,0.15,927.89,307.86,37.4,PayPal,Processing,Sam Rivera
+ORD-10092,2025-06-09,Mohammed Chen,Home Office,Retail Store,Europe,Spain,Electronics,Smartphone,6,1234.22,0,7405.32,3151.19,19.65,Credit Card,Delivered,Riley Bennett
+ORD-10129,2025-06-09,Grace Tanaka,Consumer,Online,Latin America,Colombia,Home & Garden,Plant Pot,11,115.29,0.1,1141.37,380.09,19.63,Gift Card,Processing,Riley Bennett
+ORD-10454,2025-06-09,Fatima Khan,Small Business,Phone Order,Latin America,Argentina,Electronics,Tablet,10,77.58,0.15,659.43,253.24,14.25,Gift Card,Shipped,Morgan Blake
+ORD-10012,2025-06-10,Aisha Khan,Small Business,Phone Order,Europe,France,Apparel,Jacket,12,69.32,0.25,623.88,297.65,22.86,Gift Card,Delivered,Morgan Blake
+ORD-10098,2025-06-11,Raj Kim,Consumer,Phone Order,Latin America,Colombia,Office Supplies,Notebook,4,45.69,0.1,164.48,72.85,35.8,Gift Card,Processing,Morgan Blake
+ORD-10386,2025-06-11,Wei Kowalski,Corporate,Retail Store,Asia Pacific,Australia,Electronics,Monitor,10,580.11,0,5801.1,2554.39,10.36,Bank Transfer,Delivered,Taylor Brooks
+ORD-10159,2025-06-12,Hannah Dubois,Small Business,Online,Europe,Italy,Furniture,Bookshelf,8,539.08,0.05,4097.01,1272.83,29.45,PayPal,Delivered,Jamie Foster
+ORD-10278,2025-06-12,Olivia Tanaka,Home Office,Retail Store,North America,Mexico,Office Supplies,Printer Paper,7,18.66,0.15,111.03,58.53,42.12,PayPal,Delivered,Jamie Foster
+ORD-10118,2025-06-15,Hannah Kim,Small Business,Retail Store,Europe,Italy,Office Supplies,Whiteboard,6,32.48,0,194.88,80.31,25.39,PayPal,Delivered,Casey Morgan
+ORD-10342,2025-06-17,Sven Ivanov,Consumer,Phone Order,Asia Pacific,Australia,Home & Garden,Garden Tool Set,4,130.66,0.15,444.24,217.6,15.04,PayPal,Delivered,Sam Rivera
+ORD-10465,2025-06-17,Lucas Khan,Consumer,Phone Order,Asia Pacific,South Korea,Furniture,Office Chair,9,102.87,0.1,833.25,397.96,35.51,Bank Transfer,Shipped,Riley Bennett
+ORD-10180,2025-06-19,Carlos Park,Consumer,Phone Order,Asia Pacific,Japan,Office Supplies,Printer Paper,5,45.49,0,227.45,72.46,4.23,Credit Card,Processing,Jamie Foster
+ORD-10243,2025-06-19,Hannah Kim,Corporate,Online,North America,United States,Apparel,Jacket,1,15.84,0.05,15.05,7.07,35.99,Bank Transfer,Returned,Taylor Brooks
+ORD-10117,2025-06-20,Isabella Tanaka,Small Business,Partner Reseller,Latin America,Argentina,Furniture,Office Chair,12,549.51,0,6594.12,3249.35,21.52,Credit Card,Delivered,Sam Rivera
+ORD-10319,2025-06-26,Lucas Kim,Consumer,Phone Order,Asia Pacific,Singapore,Apparel,Backpack,1,91.88,0.15,78.1,26.92,17.93,Gift Card,Delivered,Alex Turner
+ORD-10142,2025-06-28,Mei Rossi,Consumer,Online,Latin America,Brazil,Electronics,Tablet,9,1097.18,0.1,8887.16,4842.23,37.15,PayPal,Shipped,Taylor Brooks
+ORD-10307,2025-06-30,Raj Yamamoto,Corporate,Retail Store,Latin America,Chile,Office Supplies,Desk Organizer,6,59.5,0.15,303.45,129.36,29.6,Gift Card,Processing,Casey Morgan
+ORD-10188,2025-07-02,Arjun Yamamoto,Consumer,Retail Store,Asia Pacific,Japan,Apparel,Running Shoes,2,60.97,0,121.94,61.3,31.81,Bank Transfer,Processing,Sam Rivera
+ORD-10207,2025-07-02,Hannah Yamamoto,Corporate,Online,Latin America,Argentina,Apparel,Running Shoes,12,18.69,0,224.28,89.57,40.82,Gift Card,Processing,Sam Rivera
+ORD-10018,2025-07-04,Arjun Nguyen,Consumer,Phone Order,Europe,Italy,Office Supplies,Printer Paper,2,56.13,0.05,106.65,46.83,9.63,Credit Card,Processing,Sam Rivera
+ORD-10009,2025-07-06,Wei Chen,Small Business,Online,North America,Mexico,Office Supplies,Whiteboard,6,3.13,0.1,16.9,8.08,13.12,PayPal,Delivered,Sam Rivera
+ORD-10387,2025-07-06,Carlos Park,Small Business,Phone Order,North America,Mexico,Apparel,Cap,12,105.82,0.05,1206.35,390.92,34.96,Credit Card,Delivered,Jordan Lee
+ORD-10301,2025-07-10,Carlos Kowalski,Home Office,Partner Reseller,Asia Pacific,Singapore,Apparel,Running Shoes,10,105.44,0,1054.4,558.13,9.51,Credit Card,Delivered,Morgan Blake
+ORD-10238,2025-07-14,Carlos Yamamoto,Corporate,Retail Store,Asia Pacific,South Korea,Electronics,Laptop,8,1350.47,0,10803.76,3278.38,34.19,Credit Card,Delivered,Morgan Blake
+ORD-10052,2025-07-16,Isabella Chen,Corporate,Online,Europe,France,Apparel,Backpack,11,23.36,0.05,244.11,82.28,16.05,Gift Card,Delivered,Jordan Lee
+ORD-10104,2025-07-17,Mei Costa,Consumer,Phone Order,Asia Pacific,Singapore,Furniture,Standing Desk,9,730.83,0.05,6248.6,3209.23,11.44,Bank Transfer,Delivered,Jamie Foster
+ORD-10309,2025-07-20,Mei Nguyen,Consumer,Partner Reseller,Europe,United Kingdom,Electronics,Monitor,3,565.7,0.1,1527.39,671.86,27.45,PayPal,Delivered,Jordan Lee
+ORD-10150,2025-07-21,Priya Silva,Corporate,Partner Reseller,North America,Mexico,Home & Garden,Garden Tool Set,1,173.83,0.1,156.45,66.63,35.73,PayPal,Shipped,Sam Rivera
+ORD-10320,2025-07-22,Chloe Silva,Small Business,Retail Store,Asia Pacific,Japan,Furniture,Bookshelf,11,815.68,0,8972.48,4698.54,19.05,PayPal,Returned,Morgan Blake
+ORD-10209,2025-07-23,Ethan Khan,Consumer,Online,Latin America,Chile,Office Supplies,Desk Organizer,1,28.57,0.2,22.86,11.8,9.28,Bank Transfer,Delivered,Riley Bennett
+ORD-10136,2025-07-24,Grace Tanaka,Consumer,Phone Order,Europe,Spain,Furniture,Bookshelf,11,246.74,0,2714.14,741.86,38.58,Gift Card,Delivered,Alex Turner
+ORD-10410,2025-07-24,Kenji Silva,Small Business,Phone Order,North America,United States,Office Supplies,Whiteboard,5,8.71,0.25,32.66,12.08,16.1,Gift Card,Returned,Taylor Brooks
+ORD-10119,2025-07-25,Mei Kim,Home Office,Online,Asia Pacific,Japan,Office Supplies,Stapler,12,42.88,0.25,385.92,175.55,17.65,Gift Card,Cancelled,Morgan Blake
+ORD-10434,2025-07-25,Wei Johnson,Corporate,Online,Europe,United Kingdom,Apparel,Jacket,3,38.8,0,116.4,50.02,21.01,Credit Card,Delivered,Morgan Blake
+ORD-10470,2025-07-26,Olivia Nguyen,Home Office,Partner Reseller,Asia Pacific,Australia,Home & Garden,Storage Bin,6,29.18,0.1,157.57,84.76,9.44,Credit Card,Delivered,Sam Rivera
+ORD-10277,2025-07-30,Mei Silva,Corporate,Phone Order,Latin America,Argentina,Office Supplies,Whiteboard,10,41.53,0,415.3,168.37,13.83,Gift Card,Delivered,Riley Bennett
+ORD-10146,2025-07-31,Grace Johnson,Consumer,Online,Europe,Italy,Apparel,Cap,12,46.49,0,557.88,174.53,31.95,Gift Card,Delivered,Taylor Brooks
+ORD-10338,2025-08-01,Liam Kim,Consumer,Phone Order,Asia Pacific,China,Home & Garden,Plant Pot,11,47.99,0.15,448.71,139.16,40.3,Gift Card,Delivered,Sam Rivera
+ORD-10261,2025-08-02,Noah Park,Home Office,Partner Reseller,Europe,Netherlands,Apparel,Running Shoes,8,14.45,0.05,109.82,58.33,18.52,Gift Card,Delivered,Jamie Foster
+ORD-10422,2025-08-03,Raj Tanaka,Small Business,Partner Reseller,Latin America,Colombia,Furniture,Bookshelf,11,732.43,0.1,7251.06,2890.33,15.6,Bank Transfer,Shipped,Jamie Foster
+ORD-10306,2025-08-06,Aisha Rossi,Corporate,Partner Reseller,Europe,Italy,Home & Garden,Storage Bin,11,151.25,0.15,1414.19,491.65,32.51,Bank Transfer,Delivered,Sam Rivera
+ORD-10474,2025-08-06,Arjun Santos,Small Business,Online,Europe,Spain,Home & Garden,Plant Pot,9,31.09,0,279.81,73.11,14.55,Bank Transfer,Delivered,Morgan Blake
+ORD-10339,2025-08-07,Yuki Johnson,Small Business,Phone Order,Latin America,Argentina,Home & Garden,Plant Pot,5,174.0,0.15,739.5,249.25,14.4,PayPal,Delivered,Casey Morgan
+ORD-10111,2025-08-14,Mohammed Park,Small Business,Retail Store,Asia Pacific,Japan,Furniture,Filing Cabinet,8,896.69,0.25,5380.14,1540.21,23.89,PayPal,Delivered,Riley Bennett
+ORD-10134,2025-08-14,Ethan Rossi,Small Business,Partner Reseller,Asia Pacific,Japan,Office Supplies,Printer Paper,9,59.17,0.05,505.9,215.48,14.56,Credit Card,Delivered,Riley Bennett
+ORD-10016,2025-08-21,Aisha Santos,Corporate,Online,Latin America,Argentina,Electronics,Tablet,3,166.16,0,498.48,185.18,31.36,Credit Card,Delivered,Morgan Blake
+ORD-10060,2025-08-24,Mohammed Santos,Home Office,Phone Order,Asia Pacific,South Korea,Apparel,Running Shoes,5,60.25,0.05,286.19,71.6,38.84,Bank Transfer,Delivered,Alex Turner
+ORD-10475,2025-08-26,Aisha Khan,Corporate,Phone Order,North America,Canada,Electronics,Headphones,7,683.68,0,4785.76,1397.95,16.33,PayPal,Delivered,Sam Rivera
+ORD-10160,2025-08-29,Olivia Patel,Corporate,Partner Reseller,Latin America,Colombia,Electronics,Smartwatch,5,361.45,0,1807.25,680.96,36.58,Credit Card,Delivered,Casey Morgan
+ORD-10391,2025-08-30,Emma Garcia,Corporate,Phone Order,Latin America,Colombia,Office Supplies,Desk Organizer,5,9.65,0,48.25,15.11,12.52,Bank Transfer,Delivered,Jamie Foster
+ORD-10226,2025-08-31,Fatima Muller,Corporate,Online,North America,Mexico,Electronics,Smartwatch,1,1262.37,0,1262.37,536.47,18.97,Bank Transfer,Delivered,Morgan Blake
+ORD-10048,2025-09-01,Wei Yamamoto,Consumer,Partner Reseller,Asia Pacific,India,Electronics,Monitor,12,1048.58,0.2,10066.37,2689.71,24.02,Bank Transfer,Delivered,Casey Morgan
+ORD-10267,2025-09-02,Liam Yamamoto,Consumer,Retail Store,North America,United States,Apparel,Backpack,1,24.54,0.05,23.31,9.17,41.19,Gift Card,Shipped,Alex Turner
+ORD-10079,2025-09-05,Isabella Rossi,Corporate,Partner Reseller,North America,United States,Furniture,Bookshelf,3,855.17,0.1,2308.96,1069.43,8.04,PayPal,Delivered,Riley Bennett
+ORD-10083,2025-09-08,Hannah Santos,Home Office,Phone Order,Europe,Netherlands,Electronics,Smartphone,11,1429.37,0.25,11792.3,4844.44,26.68,PayPal,Delivered,Jamie Foster
+ORD-10276,2025-09-12,Raj Khan,Home Office,Phone Order,Europe,Spain,Apparel,Cap,3,10.51,0.2,25.22,10.04,26.46,Gift Card,Delivered,Morgan Blake
+ORD-10078,2025-09-13,Fatima Park,Home Office,Online,Latin America,Colombia,Office Supplies,Printer Paper,2,45.79,0.15,77.84,32.77,14.9,PayPal,Shipped,Morgan Blake
+ORD-10203,2025-09-13,Carlos Nguyen,Home Office,Retail Store,Latin America,Argentina,Electronics,Laptop,4,530.09,0.2,1696.29,578.17,33.33,Credit Card,Shipped,Alex Turner
+ORD-10216,2025-09-14,Chloe Andersson,Consumer,Online,Asia Pacific,South Korea,Office Supplies,Whiteboard,6,53.94,0.25,242.73,115.15,22.6,Bank Transfer,Shipped,Casey Morgan
+ORD-10491,2025-09-17,Isabella Silva,Consumer,Partner Reseller,Latin America,Brazil,Electronics,Smartwatch,1,130.9,0.1,117.81,34.76,19.87,Gift Card,Shipped,Jamie Foster
+ORD-10271,2025-09-18,Emma Santos,Home Office,Partner Reseller,Asia Pacific,South Korea,Apparel,Jacket,9,55.46,0.25,374.36,185.83,26.48,PayPal,Delivered,Jordan Lee
+ORD-10334,2025-09-18,Ethan Yamamoto,Home Office,Retail Store,North America,United States,Home & Garden,Rug,8,197.54,0.1,1422.29,600.04,38.61,Gift Card,Delivered,Jamie Foster
+ORD-10115,2025-09-19,Ethan Nguyen,Small Business,Online,Asia Pacific,Japan,Apparel,Cap,5,91.33,0.15,388.15,154.41,24.41,Bank Transfer,Delivered,Riley Bennett
+ORD-10344,2025-09-19,Sofia Yamamoto,Small Business,Phone Order,Asia Pacific,China,Apparel,T-Shirt,8,24.31,0,194.48,100.78,5.26,Bank Transfer,Delivered,Riley Bennett
+ORD-10027,2025-09-22,Kenji Ivanov,Corporate,Partner Reseller,Asia Pacific,India,Home & Garden,Plant Pot,4,66.34,0.2,212.29,66.72,28.48,PayPal,Delivered,Jordan Lee
+ORD-10257,2025-09-23,Mei Silva,Small Business,Phone Order,Asia Pacific,South Korea,Home & Garden,LED Lamp,6,116.59,0.15,594.61,156.03,10.08,Bank Transfer,Delivered,Sam Rivera
+ORD-10458,2025-09-24,Liam Park,Consumer,Online,Europe,United Kingdom,Home & Garden,LED Lamp,6,101.38,0.15,517.04,165.03,35.34,Gift Card,Delivered,Jamie Foster
+ORD-10315,2025-09-30,Maria Silva,Corporate,Phone Order,Europe,Spain,Electronics,Smartphone,6,339.54,0,2037.24,657.38,38.82,Credit Card,Delivered,Riley Bennett
+ORD-10354,2025-09-30,Ethan Costa,Corporate,Phone Order,Europe,Spain,Home & Garden,Storage Bin,8,113.99,0.2,729.54,323.48,10.8,Gift Card,Shipped,Riley Bennett
+ORD-10401,2025-10-05,Arjun Muller,Home Office,Retail Store,Latin America,Brazil,Office Supplies,Desk Organizer,1,44.51,0.1,40.06,20.08,5.46,Credit Card,Delivered,Casey Morgan
+ORD-10463,2025-10-08,Lucas Yamamoto,Corporate,Partner Reseller,Asia Pacific,India,Apparel,Cap,12,106.09,0.15,1082.12,300.0,3.33,Gift Card,Delivered,Taylor Brooks
+ORD-10020,2025-10-11,Priya Smith,Consumer,Online,Latin America,Chile,Electronics,Laptop,3,533.66,0.1,1440.88,722.64,21.56,PayPal,Shipped,Alex Turner
+ORD-10329,2025-10-11,Raj Santos,Corporate,Retail Store,Asia Pacific,Australia,Home & Garden,Storage Bin,9,147.56,0,1328.04,579.55,18.99,PayPal,Processing,Sam Rivera
+ORD-10096,2025-10-12,Ethan Patel,Corporate,Online,Latin America,Chile,Office Supplies,Notebook,2,22.71,0.15,38.61,18.44,30.6,Bank Transfer,Delivered,Riley Bennett
+ORD-10421,2025-10-12,Arjun Santos,Consumer,Phone Order,North America,Mexico,Furniture,Bookshelf,5,297.43,0.2,1189.72,367.17,29.23,Bank Transfer,Returned,Jordan Lee
+ORD-10200,2025-10-13,Grace Smith,Consumer,Partner Reseller,North America,Mexico,Office Supplies,Whiteboard,4,2.66,0.05,10.11,3.46,17.72,Gift Card,Processing,Morgan Blake
+ORD-10001,2025-10-16,Isabella Garcia,Consumer,Online,North America,United States,Office Supplies,Printer Paper,12,14.95,0,179.4,62.25,40.47,PayPal,Delivered,Taylor Brooks
+ORD-10178,2025-10-17,Diego Chen,Home Office,Partner Reseller,Europe,France,Electronics,Headphones,4,164.58,0,658.32,256.14,19.41,PayPal,Shipped,Alex Turner
+ORD-10487,2025-10-18,Grace Silva,Consumer,Phone Order,North America,Canada,Apparel,Backpack,11,40.14,0.25,331.15,132.9,24.72,Gift Card,Delivered,Jamie Foster
+ORD-10135,2025-10-20,Emma Muller,Small Business,Online,Latin America,Chile,Apparel,Backpack,7,26.41,0,184.87,59.84,22.89,Gift Card,Processing,Morgan Blake
+ORD-10426,2025-10-21,Isabella Johnson,Consumer,Partner Reseller,North America,Mexico,Apparel,T-Shirt,2,16.09,0.15,27.35,10.11,39.42,PayPal,Cancelled,Taylor Brooks
+ORD-10350,2025-10-22,Emma Andersson,Small Business,Retail Store,North America,United States,Furniture,Standing Desk,11,807.55,0,8883.05,2868.13,30.76,PayPal,Delivered,Riley Bennett
+ORD-10176,2025-10-23,Raj Muller,Small Business,Partner Reseller,North America,United States,Apparel,Backpack,8,22.4,0,179.2,70.16,44.06,Bank Transfer,Returned,Sam Rivera
+ORD-10255,2025-10-23,Maria Kowalski,Small Business,Online,Europe,Germany,Furniture,Standing Desk,5,585.85,0.05,2782.79,1434.84,31.18,Bank Transfer,Delivered,Jordan Lee
+ORD-10053,2025-10-25,Mohammed Tanaka,Corporate,Online,Europe,Spain,Office Supplies,Desk Organizer,7,42.91,0.25,225.28,57.66,13.24,Bank Transfer,Delivered,Morgan Blake
+ORD-10057,2025-10-27,Diego Nguyen,Corporate,Online,North America,Canada,Home & Garden,Storage Bin,11,191.19,0.25,1577.32,454.72,4.51,Gift Card,Delivered,Jordan Lee
+ORD-10017,2025-11-04,Sven Chen,Consumer,Partner Reseller,Asia Pacific,Singapore,Furniture,Bookshelf,7,275.72,0,1930.04,672.61,15.6,Credit Card,Delivered,Jordan Lee
+ORD-10108,2025-11-05,Diego Smith,Small Business,Phone Order,Asia Pacific,China,Electronics,Laptop,11,167.77,0.1,1660.92,589.06,35.21,Bank Transfer,Delivered,Jamie Foster
+ORD-10010,2025-11-06,Arjun Nguyen,Small Business,Phone Order,Latin America,Argentina,Office Supplies,Desk Organizer,7,52.6,0.05,349.79,94.91,34.72,Gift Card,Shipped,Jamie Foster
+ORD-10089,2025-11-08,Sofia Ivanov,Consumer,Partner Reseller,Asia Pacific,China,Furniture,Sofa,3,388.91,0,1166.73,350.71,35.39,Bank Transfer,Processing,Taylor Brooks
+ORD-10227,2025-11-08,Chloe Khan,Home Office,Online,North America,Mexico,Home & Garden,Garden Tool Set,12,127.58,0,1530.96,649.67,40.74,Credit Card,Delivered,Jamie Foster
+ORD-10415,2025-11-08,Aisha Andersson,Small Business,Phone Order,Latin America,Colombia,Home & Garden,Garden Tool Set,9,112.15,0,1009.35,266.7,4.33,Gift Card,Delivered,Jamie Foster
+ORD-10026,2025-11-11,Priya Muller,Corporate,Partner Reseller,Asia Pacific,China,Office Supplies,Notebook,5,43.75,0.1,196.87,68.89,16.7,Gift Card,Shipped,Sam Rivera
+ORD-10467,2025-11-13,Kenji Khan,Corporate,Partner Reseller,Europe,Netherlands,Apparel,Cap,2,91.13,0.15,154.92,61.2,11.09,Gift Card,Processing,Jordan Lee
+ORD-10161,2025-11-17,Hannah Nguyen,Consumer,Retail Store,Latin America,Chile,Home & Garden,Storage Bin,10,125.37,0,1253.7,558.68,38.51,Bank Transfer,Shipped,Jordan Lee
+ORD-10101,2025-11-18,Olivia Johnson,Small Business,Online,Latin America,Chile,Home & Garden,LED Lamp,3,190.94,0.25,429.61,231.8,5.82,PayPal,Processing,Jamie Foster
+ORD-10219,2025-11-18,Grace Kowalski,Corporate,Phone Order,Asia Pacific,China,Office Supplies,Printer Paper,9,50.76,0,456.84,211.0,22.77,Credit Card,Shipped,Taylor Brooks
+ORD-10229,2025-11-18,Yuki Ivanov,Home Office,Phone Order,North America,United States,Home & Garden,Storage Bin,2,36.64,0,73.28,24.4,7.25,Gift Card,Delivered,Alex Turner
+ORD-10423,2025-11-18,Sven Dubois,Consumer,Retail Store,Europe,United Kingdom,Home & Garden,LED Lamp,4,118.75,0.25,356.25,167.3,29.79,Bank Transfer,Processing,Jamie Foster
+ORD-10116,2025-11-20,Sven Santos,Corporate,Online,North America,Canada,Home & Garden,Garden Tool Set,12,160.98,0,1931.76,716.54,14.15,Gift Card,Shipped,Sam Rivera
+ORD-10132,2025-11-20,Maria Dubois,Consumer,Retail Store,Latin America,Colombia,Furniture,Standing Desk,3,457.71,0.1,1235.82,609.82,39.76,PayPal,Processing,Jordan Lee
+ORD-10286,2025-11-20,Isabella Yamamoto,Small Business,Online,Latin America,Colombia,Electronics,Monitor,8,939.81,0,7518.48,2176.77,29.9,Credit Card,Cancelled,Sam Rivera
+ORD-10396,2025-11-24,Isabella Johnson,Small Business,Phone Order,North America,Mexico,Apparel,Jacket,10,63.95,0,639.5,177.44,18.16,Credit Card,Delivered,Casey Morgan
+ORD-10062,2025-11-25,Emma Patel,Small Business,Retail Store,Europe,Netherlands,Electronics,Smartwatch,5,987.19,0.25,3701.96,1999.02,18.32,PayPal,Delivered,Sam Rivera
+ORD-10414,2025-11-25,Sven Park,Small Business,Partner Reseller,North America,United States,Apparel,Cap,3,84.71,0.1,228.72,83.12,7.05,PayPal,Delivered,Casey Morgan
+ORD-10258,2025-11-26,Carlos Muller,Corporate,Phone Order,Asia Pacific,India,Apparel,Backpack,5,49.46,0.25,185.47,71.31,10.38,Credit Card,Shipped,Jordan Lee
+ORD-10106,2025-11-27,Lucas Muller,Home Office,Retail Store,Asia Pacific,Japan,Home & Garden,Rug,3,42.94,0.2,103.06,41.14,39.46,PayPal,Processing,Riley Bennett
+ORD-10148,2025-11-27,Diego Muller,Small Business,Phone Order,Latin America,Brazil,Home & Garden,Garden Tool Set,12,161.23,0,1934.76,1016.5,9.48,Bank Transfer,Shipped,Jordan Lee
+ORD-10154,2025-11-29,Fatima Muller,Home Office,Retail Store,North America,Mexico,Apparel,Jacket,5,58.23,0,291.15,88.6,36.42,Bank Transfer,Delivered,Sam Rivera
+ORD-10242,2025-12-04,Ethan Santos,Small Business,Phone Order,Asia Pacific,South Korea,Furniture,Standing Desk,12,493.19,0.15,5030.54,1694.76,34.95,Gift Card,Delivered,Alex Turner
+ORD-10368,2025-12-06,Diego Chen,Home Office,Phone Order,Latin America,Brazil,Home & Garden,Rug,6,187.53,0.15,956.4,330.39,19.83,Credit Card,Shipped,Jamie Foster
+ORD-10469,2025-12-06,Aisha Tanaka,Small Business,Partner Reseller,Latin America,Colombia,Furniture,Standing Desk,8,494.74,0.25,2968.44,1517.42,32.59,Credit Card,Processing,Sam Rivera
+ORD-10067,2025-12-07,Diego Johnson,Consumer,Partner Reseller,Asia Pacific,Japan,Apparel,Backpack,6,114.56,0,687.36,175.77,18.43,Bank Transfer,Cancelled,Taylor Brooks
+ORD-10406,2025-12-08,Maria Costa,Consumer,Phone Order,North America,United States,Electronics,Monitor,1,1148.13,0.05,1090.72,564.62,36.31,Credit Card,Delivered,Jordan Lee
+ORD-10437,2025-12-10,Yuki Costa,Home Office,Online,Latin America,Argentina,Apparel,Backpack,5,90.97,0,454.85,237.17,5.47,Credit Card,Delivered,Casey Morgan
+ORD-10224,2025-12-11,Emma Ivanov,Home Office,Partner Reseller,Asia Pacific,Singapore,Furniture,Office Chair,10,394.51,0.1,3550.59,1774.92,37.6,PayPal,Delivered,Riley Bennett
+ORD-10316,2025-12-11,Fatima Yamamoto,Corporate,Online,North America,Canada,Apparel,Backpack,4,12.5,0.05,47.5,23.22,24.98,Gift Card,Delivered,Alex Turner
+ORD-10412,2025-12-12,Yuki Dubois,Small Business,Phone Order,North America,Mexico,Furniture,Office Chair,4,378.24,0.15,1286.02,630.05,38.45,Bank Transfer,Delivered,Morgan Blake
+ORD-10232,2025-12-13,James Muller,Small Business,Partner Reseller,North America,United States,Electronics,Monitor,8,1371.28,0.25,8227.68,4077.82,18.95,Credit Card,Delivered,Morgan Blake
+ORD-10055,2025-12-15,Mohammed Andersson,Corporate,Partner Reseller,Europe,Italy,Apparel,Jacket,7,104.16,0,729.12,331.42,22.87,Credit Card,Cancelled,Sam Rivera
+ORD-10481,2025-12-16,Sven Ivanov,Home Office,Retail Store,North America,United States,Home & Garden,Garden Tool Set,4,176.63,0.15,600.54,171.05,42.71,Bank Transfer,Shipped,Riley Bennett
+ORD-10130,2025-12-18,Diego Dubois,Home Office,Partner Reseller,North America,Mexico,Electronics,Laptop,8,1479.9,0,11839.2,5491.88,10.56,Gift Card,Delivered,Morgan Blake
+ORD-10187,2025-12-18,Sofia Ivanov,Small Business,Phone Order,Asia Pacific,Singapore,Apparel,Running Shoes,4,35.7,0,142.8,45.13,27.56,Gift Card,Delivered,Jordan Lee
+ORD-10167,2025-12-21,Maria Kim,Corporate,Retail Store,Asia Pacific,Singapore,Home & Garden,Garden Tool Set,9,190.86,0,1717.74,874.89,34.5,PayPal,Delivered,Sam Rivera
+ORD-10107,2025-12-27,Emma Yamamoto,Consumer,Retail Store,Europe,France,Home & Garden,Garden Tool Set,5,170.42,0.05,809.49,291.0,26.14,PayPal,Delivered,Sam Rivera
+ORD-10270,2025-12-27,Liam Dubois,Home Office,Phone Order,North America,Mexico,Home & Garden,Plant Pot,7,107.79,0.05,716.8,246.34,16.27,Gift Card,Delivered,Riley Bennett
+ORD-10164,2025-12-28,Sven Ivanov,Small Business,Online,Latin America,Colombia,Furniture,Office Chair,4,543.63,0.1,1957.07,1057.19,12.44,Credit Card,Delivered,Casey Morgan
+ORD-10168,2025-12-29,Mei Chen,Small Business,Phone Order,Asia Pacific,Japan,Apparel,Backpack,11,25.64,0.1,253.84,91.8,18.76,Bank Transfer,Delivered,Jamie Foster
+ORD-10155,2026-01-02,Isabella Kowalski,Consumer,Phone Order,Latin America,Colombia,Electronics,Monitor,8,1486.52,0.2,9513.73,3707.4,41.79,Credit Card,Processing,Jordan Lee
+ORD-10283,2026-01-08,James Rossi,Small Business,Partner Reseller,Asia Pacific,Japan,Home & Garden,Storage Bin,4,172.41,0,689.64,213.78,34.02,PayPal,Delivered,Riley Bennett
+ORD-10140,2026-01-10,Maria Park,Consumer,Online,Latin America,Colombia,Furniture,Bookshelf,12,218.8,0.25,1969.2,974.33,40.35,Credit Card,Returned,Alex Turner
+ORD-10310,2026-01-10,Ethan Andersson,Consumer,Online,Asia Pacific,India,Furniture,Filing Cabinet,12,757.08,0,9084.96,3374.43,15.62,Bank Transfer,Shipped,Riley Bennett
+ORD-10071,2026-01-14,Wei Chen,Home Office,Retail Store,Asia Pacific,India,Electronics,Laptop,7,1497.95,0.2,8388.52,2887.08,23.59,Credit Card,Cancelled,Sam Rivera
+ORD-10460,2026-01-20,Yuki Costa,Home Office,Phone Order,North America,United States,Office Supplies,Stapler,2,49.51,0.05,94.07,39.35,20.46,PayPal,Processing,Jordan Lee
+ORD-10302,2026-01-21,Mohammed Tanaka,Small Business,Retail Store,Europe,United Kingdom,Home & Garden,Garden Tool Set,4,157.0,0.15,533.8,178.13,30.65,Bank Transfer,Delivered,Riley Bennett
+ORD-10279,2026-01-24,Aisha Chen,Small Business,Online,Europe,Germany,Furniture,Bookshelf,4,249.56,0.05,948.33,283.65,17.95,Credit Card,Processing,Jamie Foster
+ORD-10394,2026-01-26,Raj Khan,Small Business,Online,Asia Pacific,South Korea,Office Supplies,Whiteboard,10,53.97,0,539.7,167.38,33.6,PayPal,Cancelled,Jordan Lee
+ORD-10184,2026-01-27,Priya Johnson,Consumer,Phone Order,Europe,Spain,Office Supplies,Desk Organizer,4,58.37,0.05,221.81,111.98,42.16,Credit Card,Delivered,Morgan Blake
+ORD-10349,2026-01-27,Wei Yamamoto,Consumer,Partner Reseller,Latin America,Brazil,Home & Garden,Rug,9,96.88,0,871.92,264.53,10.4,Bank Transfer,Returned,Jamie Foster
+ORD-10099,2026-01-31,Grace Dubois,Consumer,Partner Reseller,Latin America,Colombia,Office Supplies,Printer Paper,8,30.78,0.15,209.3,57.08,24.81,PayPal,Processing,Casey Morgan
+ORD-10236,2026-02-02,Diego Nguyen,Corporate,Partner Reseller,North America,United States,Apparel,Backpack,9,13.94,0,125.46,37.92,36.25,Bank Transfer,Returned,Riley Bennett
+ORD-10486,2026-02-02,Arjun Kowalski,Home Office,Partner Reseller,North America,United States,Office Supplies,Desk Organizer,9,51.62,0.1,418.12,205.9,31.48,Credit Card,Returned,Morgan Blake
+ORD-10272,2026-02-04,Maria Rossi,Small Business,Online,Europe,Spain,Furniture,Office Chair,7,255.86,0.15,1522.37,471.54,28.79,Credit Card,Shipped,Sam Rivera
+ORD-10244,2026-02-10,Mei Nguyen,Consumer,Partner Reseller,North America,Canada,Apparel,T-Shirt,11,77.77,0.05,812.7,265.98,26.57,Gift Card,Delivered,Morgan Blake
+ORD-10292,2026-02-12,Priya Dubois,Small Business,Retail Store,Latin America,Chile,Electronics,Monitor,10,1207.05,0.05,11466.98,3565.88,26.02,PayPal,Delivered,Morgan Blake
+ORD-10058,2026-02-17,Liam Silva,Small Business,Retail Store,North America,Canada,Furniture,Bookshelf,1,820.81,0.15,697.69,217.09,15.32,PayPal,Delivered,Sam Rivera
+ORD-10110,2026-02-17,Emma Andersson,Small Business,Retail Store,Asia Pacific,China,Home & Garden,Plant Pot,8,69.27,0,554.16,260.32,13.41,PayPal,Delivered,Riley Bennett
+ORD-10369,2026-02-17,Arjun Johnson,Small Business,Online,Asia Pacific,South Korea,Furniture,Standing Desk,7,534.67,0.05,3555.56,1636.76,19.38,Gift Card,Delivered,Taylor Brooks
+ORD-10003,2026-02-20,Mohammed Chen,Home Office,Phone Order,Asia Pacific,Australia,Electronics,Monitor,6,190.24,0.1,1027.3,316.27,33.65,PayPal,Delivered,Jordan Lee
+ORD-10046,2026-02-20,Kenji Yamamoto,Small Business,Phone Order,Europe,Netherlands,Furniture,Bookshelf,3,621.55,0.05,1771.42,881.91,6.15,Credit Card,Delivered,Taylor Brooks
+ORD-10177,2026-02-20,Lucas Nguyen,Small Business,Partner Reseller,Latin America,Brazil,Electronics,Tablet,5,147.92,0.05,702.62,378.05,5.54,Gift Card,Processing,Jordan Lee
+ORD-10490,2026-02-21,Mei Muller,Consumer,Partner Reseller,North America,Mexico,Apparel,Cap,1,23.73,0,23.73,10.36,40.38,Credit Card,Shipped,Casey Morgan
+ORD-10418,2026-02-22,Diego Nguyen,Consumer,Online,Asia Pacific,India,Electronics,Monitor,6,550.46,0.2,2642.21,1174.78,30.77,Bank Transfer,Delivered,Jordan Lee
+ORD-10031,2026-02-23,Liam Muller,Corporate,Partner Reseller,Latin America,Argentina,Office Supplies,Whiteboard,5,6.49,0.05,30.83,14.44,16.43,PayPal,Delivered,Taylor Brooks
+ORD-10156,2026-02-26,Aisha Smith,Consumer,Phone Order,Europe,Netherlands,Office Supplies,Printer Paper,1,39.53,0.2,31.62,8.22,16.93,PayPal,Processing,Taylor Brooks
+ORD-10330,2026-02-26,Noah Smith,Home Office,Online,North America,Canada,Office Supplies,Stapler,8,44.35,0.1,319.32,115.61,7.94,Gift Card,Delivered,Jamie Foster
+ORD-10024,2026-03-02,Sofia Santos,Home Office,Online,Asia Pacific,Singapore,Home & Garden,Storage Bin,9,138.47,0.15,1059.3,284.13,7.84,Credit Card,Returned,Morgan Blake
+ORD-10435,2026-03-02,Noah Yamamoto,Corporate,Phone Order,Latin America,Colombia,Electronics,Smartphone,4,1084.67,0.1,3904.81,1810.31,23.76,PayPal,Delivered,Morgan Blake
+ORD-10069,2026-03-03,James Muller,Consumer,Phone Order,Europe,Italy,Electronics,Headphones,3,1294.69,0,3884.07,1506.77,36.54,PayPal,Delivered,Riley Bennett
+ORD-10327,2026-03-03,Lucas Khan,Corporate,Retail Store,Asia Pacific,India,Furniture,Filing Cabinet,1,321.42,0,321.42,132.08,30.14,Gift Card,Delivered,Morgan Blake
+ORD-10103,2026-03-04,Sofia Ivanov,Consumer,Phone Order,Asia Pacific,South Korea,Apparel,Jacket,5,119.6,0.25,448.5,219.74,8.7,Bank Transfer,Delivered,Jordan Lee
+ORD-10165,2026-03-04,Emma Garcia,Small Business,Phone Order,Asia Pacific,China,Electronics,Smartwatch,4,689.98,0.2,2207.94,1146.53,37.86,Bank Transfer,Processing,Jordan Lee
+ORD-10314,2026-03-06,Diego Smith,Home Office,Retail Store,Latin America,Chile,Home & Garden,Plant Pot,7,29.61,0.2,165.82,73.03,11.0,Bank Transfer,Delivered,Jamie Foster
+ORD-10022,2026-03-09,Isabella Silva,Home Office,Retail Store,Latin America,Argentina,Furniture,Standing Desk,3,880.49,0.2,2113.18,1146.54,33.94,Credit Card,Delivered,Morgan Blake
+ORD-10445,2026-03-09,Aisha Johnson,Corporate,Partner Reseller,Latin America,Chile,Furniture,Office Chair,7,324.81,0.1,2046.3,570.67,28.35,Gift Card,Delivered,Morgan Blake
+ORD-10213,2026-03-10,Carlos Johnson,Small Business,Partner Reseller,North America,United States,Furniture,Standing Desk,4,766.32,0,3065.28,1266.16,41.56,Credit Card,Shipped,Alex Turner
+ORD-10472,2026-03-11,Grace Patel,Consumer,Partner Reseller,Latin America,Colombia,Home & Garden,LED Lamp,9,154.29,0.25,1041.46,334.83,31.02,Gift Card,Delivered,Taylor Brooks
+ORD-10359,2026-03-12,Fatima Dubois,Small Business,Retail Store,Europe,Spain,Furniture,Sofa,6,786.85,0,4721.1,1226.52,28.01,Gift Card,Processing,Sam Rivera
+ORD-10015,2026-03-13,Grace Kowalski,Consumer,Phone Order,Latin America,Chile,Apparel,Cap,8,82.81,0,662.48,326.62,12.14,Credit Card,Delivered,Alex Turner
+ORD-10284,2026-03-15,Carlos Costa,Consumer,Partner Reseller,Latin America,Chile,Office Supplies,Desk Organizer,1,51.79,0.2,41.43,21.56,9.86,Bank Transfer,Delivered,Casey Morgan
+ORD-10495,2026-03-15,Emma Dubois,Home Office,Retail Store,North America,Canada,Furniture,Filing Cabinet,8,649.72,0.15,4418.1,1300.68,26.78,Credit Card,Delivered,Jamie Foster
+ORD-10063,2026-03-16,Mei Khan,Small Business,Online,Asia Pacific,China,Home & Garden,Garden Tool Set,5,167.45,0.25,627.94,163.13,15.4,PayPal,Cancelled,Taylor Brooks
+ORD-10253,2026-03-16,Priya Silva,Corporate,Partner Reseller,Asia Pacific,China,Electronics,Headphones,8,1159.65,0.2,7421.76,3202.24,30.75,Bank Transfer,Delivered,Sam Rivera
+ORD-10245,2026-03-18,Diego Johnson,Corporate,Retail Store,Asia Pacific,China,Electronics,Laptop,4,1128.32,0.25,3384.96,1018.89,41.28,Bank Transfer,Shipped,Jamie Foster
+ORD-10431,2026-03-19,Sofia Kim,Consumer,Phone Order,North America,Canada,Electronics,Monitor,7,733.08,0.15,4361.83,1460.27,39.82,Gift Card,Processing,Riley Bennett
+ORD-10175,2026-03-21,Hannah Nguyen,Corporate,Retail Store,Europe,Germany,Office Supplies,Notebook,10,16.39,0.1,147.51,46.66,32.0,Gift Card,Processing,Casey Morgan
+ORD-10433,2026-03-22,Sofia Andersson,Small Business,Retail Store,Asia Pacific,India,Apparel,Jacket,11,38.67,0.15,361.56,112.13,11.34,Credit Card,Delivered,Alex Turner
+ORD-10492,2026-03-25,Ethan Tanaka,Corporate,Phone Order,Latin America,Brazil,Office Supplies,Notebook,6,28.34,0.05,161.54,83.61,3.52,Bank Transfer,Shipped,Morgan Blake
+ORD-10030,2026-03-31,Grace Costa,Small Business,Phone Order,Latin America,Chile,Apparel,Cap,9,99.65,0.2,717.48,215.84,26.01,PayPal,Cancelled,Casey Morgan
+ORD-10197,2026-04-01,Olivia Andersson,Consumer,Phone Order,Asia Pacific,Australia,Electronics,Smartphone,3,900.58,0,2701.74,799.87,39.15,Bank Transfer,Returned,Riley Bennett
+ORD-10269,2026-04-01,Wei Nguyen,Small Business,Phone Order,Latin America,Colombia,Office Supplies,Desk Organizer,12,48.67,0,584.04,246.67,13.69,PayPal,Processing,Alex Turner
+ORD-10362,2026-04-01,Raj Rossi,Home Office,Online,North America,Canada,Home & Garden,Storage Bin,11,96.53,0.05,1008.74,332.59,27.73,Credit Card,Delivered,Jordan Lee
+ORD-10105,2026-04-02,Wei Muller,Home Office,Online,Europe,Italy,Electronics,Laptop,12,498.47,0.25,4486.23,1759.91,35.3,Gift Card,Processing,Jamie Foster
+ORD-10190,2026-04-03,Diego Chen,Home Office,Online,Europe,United Kingdom,Electronics,Laptop,4,1254.04,0,5016.16,2460.73,19.82,Credit Card,Shipped,Jordan Lee
+ORD-10451,2026-04-03,Fatima Muller,Corporate,Partner Reseller,Asia Pacific,Australia,Furniture,Standing Desk,2,91.38,0,182.76,62.36,10.91,PayPal,Delivered,Jordan Lee
+ORD-10218,2026-04-04,Ethan Santos,Corporate,Phone Order,Latin America,Chile,Furniture,Office Chair,5,617.43,0.1,2778.43,772.2,19.99,PayPal,Shipped,Jamie Foster
+ORD-10430,2026-04-11,Emma Tanaka,Corporate,Partner Reseller,North America,Mexico,Furniture,Filing Cabinet,7,398.55,0.1,2510.86,1154.33,42.33,Bank Transfer,Processing,Morgan Blake
+ORD-10097,2026-04-13,Noah Garcia,Corporate,Online,Europe,Netherlands,Apparel,Backpack,3,79.49,0,238.47,79.93,42.63,Bank Transfer,Delivered,Casey Morgan
+ORD-10345,2026-04-17,Aisha Ivanov,Home Office,Partner Reseller,Europe,Netherlands,Home & Garden,Plant Pot,8,194.95,0,1559.6,814.31,36.7,Gift Card,Shipped,Taylor Brooks
+ORD-10120,2026-04-18,Fatima Tanaka,Corporate,Phone Order,Asia Pacific,Japan,Office Supplies,Notebook,12,18.68,0,224.16,100.0,21.58,Bank Transfer,Delivered,Sam Rivera
+ORD-10341,2026-04-21,Chloe Chen,Home Office,Partner Reseller,Europe,Germany,Electronics,Monitor,9,612.0,0,5508.0,3022.61,42.16,Credit Card,Shipped,Jordan Lee
+ORD-10305,2026-04-23,Grace Silva,Small Business,Retail Store,Asia Pacific,China,Electronics,Smartwatch,5,152.06,0,760.3,202.71,43.34,PayPal,Delivered,Taylor Brooks
+ORD-10237,2026-04-25,Aisha Silva,Consumer,Phone Order,North America,United States,Apparel,Running Shoes,10,71.62,0.25,537.15,179.95,18.26,Bank Transfer,Delivered,Casey Morgan
+ORD-10497,2026-04-25,Sven Johnson,Consumer,Online,North America,Canada,Electronics,Laptop,9,568.94,0,5120.46,2597.5,21.5,PayPal,Shipped,Taylor Brooks
+ORD-10326,2026-04-26,Maria Tanaka,Home Office,Partner Reseller,North America,United States,Home & Garden,Rug,12,83.96,0,1007.52,385.57,24.68,Gift Card,Shipped,Casey Morgan
+ORD-10293,2026-04-28,Isabella Tanaka,Consumer,Retail Store,Latin America,Argentina,Office Supplies,Notebook,4,26.49,0.1,95.36,44.3,34.2,PayPal,Processing,Casey Morgan
+ORD-10061,2026-04-29,Emma Silva,Home Office,Retail Store,Latin America,Chile,Electronics,Tablet,12,1304.35,0,15652.2,4332.76,34.3,PayPal,Processing,Casey Morgan
+ORD-10399,2026-05-02,Mei Smith,Corporate,Phone Order,Latin America,Chile,Home & Garden,Storage Bin,5,16.11,0.1,72.5,29.13,34.07,Bank Transfer,Delivered,Jamie Foster
+ORD-10483,2026-05-02,James Khan,Small Business,Phone Order,Latin America,Brazil,Office Supplies,Whiteboard,6,49.99,0.2,239.95,119.22,35.25,PayPal,Shipped,Jamie Foster
+ORD-10456,2026-05-03,Chloe Costa,Consumer,Partner Reseller,Asia Pacific,India,Furniture,Sofa,12,249.91,0,2998.92,1049.27,8.42,Gift Card,Delivered,Casey Morgan
+ORD-10021,2026-05-04,Maria Johnson,Corporate,Retail Store,Asia Pacific,China,Home & Garden,LED Lamp,1,90.52,0.1,81.47,35.9,42.19,Credit Card,Returned,Riley Bennett
+ORD-10196,2026-05-06,Raj Yamamoto,Corporate,Retail Store,Latin America,Chile,Furniture,Filing Cabinet,1,111.13,0.05,105.57,39.01,3.84,Bank Transfer,Delivered,Sam Rivera
+ORD-10147,2026-05-08,Fatima Silva,Home Office,Partner Reseller,North America,Canada,Home & Garden,Rug,7,191.33,0.15,1138.41,616.01,14.48,Gift Card,Returned,Sam Rivera
+ORD-10240,2026-05-08,Lucas Andersson,Small Business,Retail Store,Latin America,Argentina,Home & Garden,LED Lamp,3,148.25,0,444.75,192.92,28.22,Bank Transfer,Cancelled,Morgan Blake
+ORD-10353,2026-05-10,Liam Chen,Corporate,Partner Reseller,Latin America,Argentina,Office Supplies,Printer Paper,2,9.79,0,19.58,9.92,40.17,Gift Card,Shipped,Morgan Blake
+ORD-10459,2026-05-11,Noah Johnson,Corporate,Phone Order,North America,United States,Home & Garden,Rug,2,158.17,0,316.34,125.84,10.02,Gift Card,Delivered,Jamie Foster
+ORD-10185,2026-05-19,Carlos Chen,Consumer,Retail Store,Asia Pacific,Australia,Furniture,Sofa,7,886.15,0.25,4652.29,1217.25,43.85,Gift Card,Delivered,Riley Bennett
+ORD-10199,2026-05-21,Raj Chen,Corporate,Phone Order,North America,United States,Home & Garden,Garden Tool Set,10,184.84,0.05,1755.98,628.83,7.37,Bank Transfer,Delivered,Sam Rivera
+ORD-10324,2026-05-22,Isabella Silva,Corporate,Retail Store,Latin America,Colombia,Apparel,Jacket,4,28.02,0,112.08,47.91,43.69,Credit Card,Cancelled,Sam Rivera
+ORD-10288,2026-05-24,Fatima Kowalski,Consumer,Online,North America,United States,Furniture,Bookshelf,12,851.16,0,10213.92,4972.43,19.68,Gift Card,Delivered,Jordan Lee
+ORD-10331,2026-05-25,James Silva,Home Office,Retail Store,Latin America,Brazil,Home & Garden,Storage Bin,10,53.67,0.25,402.52,166.59,21.56,Credit Card,Shipped,Sam Rivera
+ORD-10382,2026-05-27,Raj Dubois,Corporate,Retail Store,Latin America,Argentina,Home & Garden,Storage Bin,5,168.7,0,843.5,279.19,33.92,Credit Card,Delivered,Morgan Blake
+ORD-10411,2026-05-27,Hannah Chen,Consumer,Retail Store,North America,Canada,Office Supplies,Printer Paper,11,2.74,0.25,22.6,7.87,19.65,Gift Card,Delivered,Morgan Blake
+ORD-10064,2026-05-30,Ethan Andersson,Home Office,Online,Latin America,Chile,Electronics,Monitor,9,70.18,0,631.62,261.22,31.26,PayPal,Shipped,Jamie Foster
+ORD-10007,2026-05-31,Priya Smith,Consumer,Phone Order,North America,United States,Furniture,Filing Cabinet,7,569.06,0.2,3186.74,1183.02,22.66,Bank Transfer,Delivered,Jordan Lee
+ORD-10281,2026-05-31,Raj Johnson,Home Office,Retail Store,Europe,Spain,Electronics,Smartwatch,6,801.4,0,4808.4,2627.57,11.85,Bank Transfer,Delivered,Taylor Brooks
+ORD-10290,2026-05-31,Ethan Yamamoto,Small Business,Partner Reseller,Asia Pacific,India,Apparel,Cap,9,112.83,0.25,761.6,388.01,42.84,Bank Transfer,Delivered,Riley Bennett
+ORD-10352,2026-06-05,Sofia Costa,Corporate,Retail Store,North America,United States,Apparel,Cap,6,53.37,0.2,256.18,109.69,21.28,Gift Card,Delivered,Riley Bennett
+ORD-10221,2026-06-07,Kenji Muller,Home Office,Retail Store,Latin America,Chile,Apparel,T-Shirt,3,105.79,0,317.37,80.07,17.39,Credit Card,Returned,Jamie Foster
+ORD-10318,2026-06-07,Noah Park,Small Business,Online,Latin America,Argentina,Apparel,Cap,2,117.43,0.15,199.63,80.77,28.08,Credit Card,Delivered,Taylor Brooks
+ORD-10450,2026-06-11,Hannah Yamamoto,Small Business,Phone Order,North America,Canada,Home & Garden,Plant Pot,2,9.12,0,18.24,9.09,23.04,Bank Transfer,Shipped,Morgan Blake
+ORD-10023,2026-06-12,James Tanaka,Small Business,Phone Order,North America,Canada,Furniture,Standing Desk,8,749.6,0.15,5097.28,2336.81,36.4,Bank Transfer,Delivered,Jordan Lee
+ORD-10137,2026-06-13,Noah Khan,Small Business,Retail Store,North America,United States,Home & Garden,Rug,4,49.67,0.15,168.88,77.52,41.18,PayPal,Delivered,Morgan Blake
+ORD-10496,2026-06-16,Sven Patel,Small Business,Retail Store,North America,Canada,Furniture,Office Chair,12,603.79,0.05,6883.21,2822.38,11.95,Gift Card,Delivered,Sam Rivera
+ORD-10210,2026-06-17,Hannah Andersson,Consumer,Partner Reseller,Latin America,Chile,Apparel,Backpack,8,72.92,0,583.36,290.71,19.92,Bank Transfer,Shipped,Taylor Brooks
+ORD-10268,2026-06-17,Lucas Dubois,Home Office,Online,North America,United States,Apparel,Jacket,9,109.22,0,982.98,276.13,35.54,Gift Card,Shipped,Taylor Brooks
+ORD-10311,2026-06-19,Lucas Garcia,Home Office,Retail Store,Latin America,Colombia,Electronics,Smartphone,10,1134.13,0,11341.3,4080.98,29.55,Bank Transfer,Delivered,Taylor Brooks
+ORD-10429,2026-06-19,Arjun Silva,Home Office,Partner Reseller,Europe,France,Apparel,Running Shoes,1,100.35,0,100.35,29.86,30.81,Bank Transfer,Cancelled,Riley Bennett
+ORD-10040,2026-06-20,Arjun Costa,Small Business,Partner Reseller,Asia Pacific,China,Electronics,Tablet,2,1424.69,0.05,2706.91,904.05,23.52,Credit Card,Processing,Jordan Lee
+ORD-10262,2026-06-21,Sofia Andersson,Small Business,Phone Order,North America,United States,Office Supplies,Notebook,9,42.82,0.1,346.84,103.89,14.06,Credit Card,Delivered,Casey Morgan
+ORD-10066,2026-06-27,Diego Khan,Small Business,Partner Reseller,Europe,Spain,Apparel,Running Shoes,12,83.75,0.2,804.0,300.53,33.52,Bank Transfer,Cancelled,Alex Turner
+ORD-10464,2026-06-27,Liam Park,Home Office,Retail Store,Latin America,Chile,Apparel,Jacket,2,106.91,0,213.82,83.13,19.38,Credit Card,Shipped,Casey Morgan
