@@ -60,17 +60,25 @@
             <div class="container">
                 <a href="index.html" class="back-link">← Back to Home</a>
 
-                <div class="prompt-note">
-                    <strong>Getting Started:</strong> Use Bob to build a complete application from scratch. This demonstrates Bob's capabilities across the entire Software Development Lifecycle (SDLC).
+                <!-- Industry Tabs -->
+                <div class="sub-tabs industry-tabs">
+                    <button class="sub-tab-btn active" data-tab="uc2-banking">🏦 Banking &amp; Financial Services</button>
+                    <button class="sub-tab-btn" data-tab="uc2-publicsector">🏛 Public Sector</button>
                 </div>
 
-                <!-- Prompt: Build Payment Processing Application -->
-                <div class="prompt-card">
-                    <div class="prompt-header">
-                        <h2 class="prompt-title">Build a Credit Card Payment Processing Application</h2>
-                        <button class="copy-btn" data-prompt="prompt-sdlc-1">Copy Prompt</button>
+                <!-- ── TAB: Banking & Financial Services ── -->
+                <div class="sub-tab-panel active" id="uc2-banking">
+                    <div class="prompt-note">
+                        <strong>Getting Started:</strong> Use Bob to build a complete application from scratch. This demonstrates Bob's capabilities across the entire Software Development Lifecycle (SDLC).
                     </div>
-                    <div class="prompt-content" id="prompt-sdlc-1">Build a mock credit card payment processing application with:
+
+                    <!-- Prompt: Build Payment Processing Application -->
+                    <div class="prompt-card">
+                        <div class="prompt-header">
+                            <h2 class="prompt-title">Build a Credit Card Payment Processing Application</h2>
+                            <button class="copy-btn" data-prompt="prompt-sdlc-1">Copy Prompt</button>
+                        </div>
+                        <div class="prompt-content" id="prompt-sdlc-1">Build a mock credit card payment processing application with:
 
 Backend (Java 11, Spring Boot):
 - REST API endpoints:
@@ -132,22 +140,80 @@ payment-app/
 │   └── deployment.yaml   ← OpenShift manifest with placeholder values
 └── README.md
 ```</div>
-                    <div class="prompt-note bonus-challenge">
-                        <strong>Bonus Challenge:</strong> After Bob generates the application, ask Bob to run it locally and see the magic!
+                        <div class="prompt-note bonus-challenge">
+                            <strong>Bonus Challenge:</strong> After Bob generates the application, ask Bob to run it locally and see the magic!
+                        </div>
+                    </div>
+
+                    <div class="prompt-note" style="margin-top: 2rem;">
+                        <strong>What This Demonstrates:</strong>
+                        <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+                            <li>Full-stack application development (Java Spring Boot + React)</li>
+                            <li>RESTful API design and implementation</li>
+                            <li>Database integration and caching strategies</li>
+                            <li>Containerization with Docker</li>
+                            <li>Kubernetes/OpenShift deployment manifests</li>
+                            <li>Production-ready configuration with health checks and metrics</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="prompt-note" style="margin-top: 2rem;">
-                    <strong>What This Demonstrates:</strong>
-                    <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
-                        <li>Full-stack application development (Java Spring Boot + React)</li>
-                        <li>RESTful API design and implementation</li>
-                        <li>Database integration and caching strategies</li>
-                        <li>Containerization with Docker</li>
-                        <li>Kubernetes/OpenShift deployment manifests</li>
-                        <li>Production-ready configuration with health checks and metrics</li>
-                    </ul>
+                <!-- ── TAB: Public Sector ── -->
+                <div class="sub-tab-panel" id="uc2-publicsector">
+                    <div class="prompt-note">
+                        <strong>Getting Started:</strong> Use Bob to build a government backend service from scratch — then use the bonus prompt to run it and add a UI. This demonstrates Bob's capabilities across the Software Development Lifecycle (SDLC) for a public sector scenario.
+                    </div>
+
+                    <!-- Prompt: Build Citizen Services Backend -->
+                    <div class="prompt-card">
+                        <div class="prompt-header">
+                            <h2 class="prompt-title">Build a Citizen Service Request Backend</h2>
+                            <button class="copy-btn" data-prompt="ps-prompt-sdlc-1">Copy Prompt</button>
+                        </div>
+                        <div class="prompt-content" id="ps-prompt-sdlc-1">Build a mock Citizen Service Request backend for a government agency using Java 17 and Spring Boot 3.
+
+REST API endpoints:
+- POST /api/citizens — register a new citizen (nationalId, fullName, dateOfBirth, email)
+- GET /api/citizens/lookup?nationalId=XXX — look up citizen by national ID
+- POST /api/requests — submit a service request (citizenId, serviceType, description)
+- GET /api/requests/{id} — get request status
+- PATCH /api/requests/{id}/status — officer updates request status (body: status, officer, remarks)
+- GET /api/requests/dashboard — returns count of requests per status
+
+Service request types: PASSPORT_APPLICATION, BIRTH_CERTIFICATE, DRIVING_LICENCE_RENEWAL, SOCIAL_BENEFIT_CLAIM, TAX_FILING, VOTER_REGISTRATION
+
+Business rules to enforce:
+- National ID must be unique and exactly 12 uppercase alphanumeric characters
+- Only ACTIVE citizens can submit requests
+- Status workflow: SUBMITTED → UNDER_REVIEW → APPROVED | REJECTED (no skipping steps)
+- resolvedAt is auto-set when status reaches APPROVED or REJECTED
+
+Use in-memory H2 database — no external DB needed.
+Seed 3 demo citizens and 4 service requests in various states on startup.
+
+Make it run with a single command: mvn spring-boot:run
+Do not run the application. I will run it myself.</div>
+                        <div class="prompt-note bonus-challenge">
+                            <strong>Bonus Challenge:</strong> After Bob generates the backend, use these follow-up prompts:
+                            <ol style="margin: 0.5rem 0 0 1.25rem;">
+                                <li>Ask Bob to run the application and test the dashboard endpoint in the browser</li>
+                                <li>Ask Bob to add a simple React frontend with an officer dashboard and Carbon Design styling</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="prompt-note" style="margin-top: 2rem;">
+                        <strong>What This Demonstrates:</strong>
+                        <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+                            <li>Full Spring Boot backend built from a single prompt in minutes</li>
+                            <li>Government-style workflow with status lifecycle and business rule enforcement</li>
+                            <li>RESTful API design covering citizen and officer personas</li>
+                            <li>H2 in-memory database with seeded demo data — ready to explore immediately</li>
+                            <li>Clean, extensible project structure ready for further development</li>
+                        </ul>
+                    </div>
                 </div>
+
             </div>
         </section>
     </main>
@@ -170,5 +236,22 @@ payment-app/
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        (function () {
+            var param = new URLSearchParams(window.location.search).get('industry');
+            function activateIndustryTab(tabId) {
+                document.querySelectorAll('.industry-tabs .sub-tab-btn').forEach(function (b) {
+                    b.classList.toggle('active', b.getAttribute('data-tab') === tabId);
+                });
+                document.querySelectorAll('#uc2-banking, #uc2-publicsector').forEach(function (p) {
+                    p.classList.toggle('active', p.id === tabId);
+                });
+            }
+            document.querySelectorAll('.industry-tabs .sub-tab-btn').forEach(function (btn) {
+                btn.addEventListener('click', function () { activateIndustryTab(this.getAttribute('data-tab')); });
+            });
+            if (param === 'publicsector') activateIndustryTab('uc2-publicsector');
+        })();
+    </script>
 </body>
 </html>

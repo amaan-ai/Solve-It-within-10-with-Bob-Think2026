@@ -60,57 +60,127 @@
             <div class="container">
                 <a href="index.html" class="back-link">← Back to Home</a>
 
-                <div class="prompt-note">
-                    <strong>Getting Started:</strong> Use Bob to transform legacy mainframe applications to modern Java. Download the sample codebase below, then use the prompts to migrate it with Bob.
+                <!-- Industry Tabs -->
+                <div class="sub-tabs industry-tabs">
+                    <button class="sub-tab-btn active" data-tab="uc3-banking">🏦 Banking &amp; Financial Services</button>
+                    <button class="sub-tab-btn" data-tab="uc3-publicsector">🏛 Public Sector</button>
                 </div>
 
-                <!-- Download Codebase Button -->
-                <div style="text-align: center; margin: 2rem 0;">
-                    <a href="assets/GenApp.zip" download="GenApp.zip" class="download-btn">
-                        <span class="download-icon">⬇</span> Download Codebase
-                    </a>
-                    <p style="margin-top: 0.5rem; color: var(--gray-70); font-size: 0.95rem;">
-                        <strong>Sample GenApp codebase for hands-on practice</strong>
-                    </p>
-                </div>
-
-                <!-- Prompt: Transform GenApp to Java -->
-                <div class="prompt-card">
-                    <div class="prompt-header">
-                        <h2 class="prompt-title">Transform COBOL GenApp to Java 21 GenApp</h2>
-                        <button class="copy-btn" data-prompt="prompt-migration-1">Copy Prompt</button>
+                <!-- ── TAB: Banking & Financial Services ── -->
+                <div class="sub-tab-panel active" id="uc3-banking">
+                    <div class="prompt-note">
+                        <strong>Getting Started:</strong> Use Bob to transform legacy mainframe applications to modern Java. Download the sample codebase below, then use the prompts to migrate it with Bob.
                     </div>
-                    <div class="prompt-content" id="prompt-migration-1">Transform this entire @GenApp application into executable Java21 application.
-- Provide comparison between corresponding PL1 & Java files and modules.
+
+                    <!-- Download Codebase Button -->
+                    <div style="text-align: center; margin: 2rem 0;">
+                        <a href="assets/GenApp.zip" download="GenApp.zip" class="download-btn">
+                            <span class="download-icon">⬇</span> Download Codebase
+                        </a>
+                        <p style="margin-top: 0.5rem; color: var(--gray-70); font-size: 0.95rem;">
+                            <strong>Sample GenApp COBOL codebase for hands-on practice</strong>
+                        </p>
+                    </div>
+
+                    <!-- Prompt: Transform GenApp to Java -->
+                    <div class="prompt-card">
+                        <div class="prompt-header">
+                            <h2 class="prompt-title">Transform COBOL GenApp to Java 21 GenApp</h2>
+                            <button class="copy-btn" data-prompt="prompt-migration-1">Copy Prompt</button>
+                        </div>
+                        <div class="prompt-content" id="prompt-migration-1">Transform this entire @GenApp application into executable Java21 application.
+- Provide comparison between corresponding PL1 &amp; Java files and modules.
 - Make sure the transformed java21 application compiles successfully
 - Generate and run unit tests for java.
 - Finally provide steps to run this java application.</div>
-                </div>
-
-                <!-- Bonus Prompt: Add Web UI -->
-                <div class="prompt-card">
-                    <div class="prompt-header">
-                        <h2 class="prompt-title">Bonus: Add Web UI with Carbon Design</h2>
-                        <button class="copy-btn" data-prompt="prompt-migration-bonus">Copy Prompt</button>
                     </div>
-                    <div class="prompt-content" id="prompt-migration-bonus">- Add web UI to this Java application, use carbon design.
+
+                    <!-- Bonus Prompt: Add Web UI -->
+                    <div class="prompt-card">
+                        <div class="prompt-header">
+                            <h2 class="prompt-title">Bonus: Add Web UI with Carbon Design</h2>
+                            <button class="copy-btn" data-prompt="prompt-migration-bonus">Copy Prompt</button>
+                        </div>
+                        <div class="prompt-content" id="prompt-migration-bonus">- Add web UI to this Java application, use carbon design.
 - Run this java application
 - Open the web UI in browser session and test different functionality</div>
-                    <div class="prompt-note bonus-challenge">
-                        <strong>Bonus Challenge:</strong> After Bob transforms the application to Java, use this prompt to add a modern web interface with Carbon Design System.
+                        <div class="prompt-note bonus-challenge">
+                            <strong>Bonus Challenge:</strong> After Bob transforms the application to Java, use this prompt to add a modern web interface with Carbon Design System.
+                        </div>
+                    </div>
+
+                    <div class="prompt-note" style="margin-top: 2rem;">
+                        <strong>What This Demonstrates:</strong>
+                        <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+                            <li>Legacy mainframe to modern Java transformation</li>
+                            <li>Cross-language code comparison and mapping</li>
+                            <li>Automated compilation and testing</li>
+                            <li>Modern UI integration with Carbon Design System</li>
+                            <li>End-to-end migration workflow</li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="prompt-note" style="margin-top: 2rem;">
-                    <strong>What This Demonstrates:</strong>
-                    <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
-                        <li>Legacy mainframe to modern Java transformation</li>
-                        <li>Cross-language code comparison and mapping</li>
-                        <li>Automated compilation and testing</li>
-                        <li>Modern UI integration with Carbon Design System</li>
-                        <li>End-to-end migration workflow</li>
-                    </ul>
+                <!-- ── TAB: Public Sector ── -->
+                <div class="sub-tab-panel" id="uc3-publicsector">
+                    <div class="prompt-note">
+                        <strong>Getting Started:</strong> Use Bob to modernise a legacy Java 8 government application to Java 21. Download the sample codebase below, then use the prompts to upgrade it with Bob.
+                    </div>
+
+                    <!-- Download Codebase Button -->
+                    <div style="text-align: center; margin: 2rem 0;">
+                        <a href="assets/CitizenServicesApp.zip" download="CitizenServicesApp.zip" class="download-btn">
+                            <span class="download-icon">⬇</span> Download Codebase
+                        </a>
+                        <p style="margin-top: 0.5rem; color: var(--gray-70); font-size: 0.95rem;">
+                            <strong>CitizenServicesApp — Java 8 legacy government portal (Java 21 upgrade candidate)</strong>
+                        </p>
+                    </div>
+
+                    <!-- Prompt: Upgrade Java 8 to Java 21 -->
+                    <div class="prompt-card">
+                        <div class="prompt-header">
+                            <h2 class="prompt-title">Upgrade CitizenServicesApp from Java 8 to Java 21</h2>
+                            <button class="copy-btn" data-prompt="ps-prompt-migration-1">Copy Prompt</button>
+                        </div>
+                        <div class="prompt-content" id="ps-prompt-migration-1">Modernise this entire @CitizenServicesApp from Java 8 / Spring Boot 2.7 to Java 21 / Spring Boot 3.x.
+
+1. Update pom.xml — bump Java to 21, Spring Boot to latest 3.x, migrate javax.* → jakarta.* dependencies.
+2. Migrate source files using Java 21 features where they improve clarity:
+   - Use records for simple data-carrier classes
+   - Use pattern matching and sealed classes to simplify the status transition switch logic
+   - Replace verbose anonymous classes and raw types with modern lambdas and generics
+3. Replace any deprecated Spring Boot 2.x patterns with Spring Boot 3.x equivalents.
+4. Show a before/after comparison for the 3 most impactful changes.
+5. Confirm the upgraded application compiles — provide the run command.</div>
+                    </div>
+
+                    <!-- Bonus Prompt: Run + Add Web UI -->
+                    <div class="prompt-card">
+                        <div class="prompt-header">
+                            <h2 class="prompt-title">Bonus: Run It &amp; Add a Carbon Design Web UI</h2>
+                            <button class="copy-btn" data-prompt="ps-prompt-migration-bonus">Copy Prompt</button>
+                        </div>
+                        <div class="prompt-content" id="ps-prompt-migration-bonus">- Run this upgraded Java 21 CitizenServicesApp.
+- Add a web UI using Carbon Design System with: citizen lookup, service request submission form, and an officer dashboard showing pending requests with status update controls.
+- Open the web UI in a browser and test approving a service request end-to-end.</div>
+                        <div class="prompt-note bonus-challenge">
+                            <strong>Bonus Challenge:</strong> After Bob upgrades to Java 21, use this prompt to run the app and add a Carbon Design UI — then test the full citizen request lifecycle in the browser.
+                        </div>
+                    </div>
+
+                    <div class="prompt-note" style="margin-top: 2rem;">
+                        <strong>What This Demonstrates:</strong>
+                        <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
+                            <li>Java 8 → Java 21 in-place language and framework upgrade</li>
+                            <li>Spring Boot 2.x → 3.x migration (javax → jakarta namespace, deprecated API removal)</li>
+                            <li>Modern Java features: records, sealed classes, pattern matching</li>
+                            <li>Compilation verification with a clear before/after diff</li>
+                            <li>Bonus: Carbon Design UI and live end-to-end testing</li>
+                        </ul>
+                    </div>
                 </div>
+
             </div>
         </section>
     </main>
@@ -133,5 +203,22 @@
     </footer>
 
     <script src="script.js"></script>
+    <script>
+        (function () {
+            var param = new URLSearchParams(window.location.search).get('industry');
+            function activateIndustryTab(tabId) {
+                document.querySelectorAll('.industry-tabs .sub-tab-btn').forEach(function (b) {
+                    b.classList.toggle('active', b.getAttribute('data-tab') === tabId);
+                });
+                document.querySelectorAll('#uc3-banking, #uc3-publicsector').forEach(function (p) {
+                    p.classList.toggle('active', p.id === tabId);
+                });
+            }
+            document.querySelectorAll('.industry-tabs .sub-tab-btn').forEach(function (btn) {
+                btn.addEventListener('click', function () { activateIndustryTab(this.getAttribute('data-tab')); });
+            });
+            if (param === 'publicsector') activateIndustryTab('uc3-publicsector');
+        })();
+    </script>
 </body>
 </html>
