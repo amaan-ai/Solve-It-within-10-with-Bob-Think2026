@@ -128,32 +128,28 @@ Requirements:
 
                     <div class="prompt-card">
                         <div class="prompt-header">
+                            <h3 class="prompt-title">Understand the Dataset <span class="mode-badge mode-badge-ask" title="Use Ask Mode in Bob for this prompt">Ask Mode</span></h3>
+                            <button class="copy-btn" data-prompt="prompt-eda-0">Copy Prompt</button>
+                        </div>
+                        <div class="prompt-content" id="prompt-eda-0">What is this sample-data.csv about? Give me quick exploratory data insights</div>
+                    </div>
+
+                    <div class="prompt-card">
+                        <div class="prompt-header">
                             <h3 class="prompt-title">Analyze Dataset and Generate Visualizations <span class="mode-badge mode-badge-agent" title="Use Agent Mode in Bob for this prompt">Agent Mode</span></h3>
                             <button class="copy-btn" data-prompt="prompt-eda-1">Copy Prompt</button>
                         </div>
-                        <div class="prompt-content" id="prompt-eda-1">I have a dataset sample-data.csv that I'd like analyzed for a business executive audience. Please:
+                        <div class="prompt-content" id="prompt-eda-1">Analyse @sample-data.csv and produce an executive-ready HTML dashboard. Use multiple agents.
 
-1. Quickly scan the data — note what it covers, the date range if any, and flag any data quality issues worth knowing about.
-
-2. Analyze it for:
-   - Key performance trends over time (if the data has a date/time dimension)
-   - How performance breaks down across the main categories/segments in the data
-   - Relationships between key metrics (e.g., what drives what)
-   - Any notable outliers, anomalies, or standout results
-
-3. Build an interactive HTML dashboard with:
-   - A top-line KPI summary (a few headline numbers that matter most)
-   - Trend chart(s) over time, if temporal data exists, at a sensible time granularity
-   - Category/segment comparison charts (bar charts)
-   - One chart showing the relationship between key metrics
-   - A correlation heatmap only if it adds clear business value — otherwise skip it
-   - Other important data visualization if any
-
-4. Add a short executive summary at the top: 3-5 bullet points on key takeaways, and 2-3 recommended next steps or areas worth digging into further.
-
-Use Chart.js and/or Plotly. Style with the IBM Carbon Design System — IBM Plex Sans typography, Carbon's color tokens and layout conventions. Keep it clean, professional, and easy to skim — prioritize clarity over statistical detail. No emoji or emoticons anywhere.</div>
+The dashboard (dashboard.html) should include:
+- An executive summary at the top: 3-5 key takeaways as bullet points
+- KPI headline cards (top-line numbers that matter most)
+- A trend chart over time (if a date column exists)
+- A category/segment bar chart
+- Use only inline HTML, CSS, and vanilla JavaScript — no external CDN links or library imports. Draw charts using SVG or the Canvas API directly.
+- Style with IBM Carbon Design System conventions: IBM Plex Sans font (loaded via a single Google Fonts @import in the &lt;style&gt; tag), Carbon colour tokens (blues/grays), clean card layout. No emoji anywhere.</div>
                         <div class="prompt-note">
-                            <strong>What You'll Get:</strong> Bob will produce an executive-ready HTML dashboard with KPI headlines, trend and comparison charts, key takeaways, and recommended next steps — all styled with IBM Carbon Design System conventions.
+                            <strong>What You'll Get:</strong> Bob will spin up multiple agents to analyse the data and build the dashboard — delivering a fully self-contained HTML file you can open straight in the browser with no internet required.
                         </div>
                     </div>
 
