@@ -75,7 +75,7 @@
                     <!-- Prompt: Build Payment Processing Application -->
                     <div class="prompt-card">
                         <div class="prompt-header">
-                            <h2 class="prompt-title">Build a Credit Card Payment Processing Application</h2>
+                            <h2 class="prompt-title">Build a Credit Card Payment Processing Application <span class="mode-badge mode-badge-agent" title="Use Agent Mode in Bob for this prompt">Agent Mode</span></h2>
                             <button class="copy-btn" data-prompt="prompt-sdlc-1">Copy Prompt</button>
                         </div>
                         <div class="prompt-content" id="prompt-sdlc-1">Build a mock credit card payment processing application with:
@@ -111,15 +111,10 @@ Make it run with a single command: mvn spring-boot:run
 
 Do not run the application. I will run it myself.
 
-Also generate:
-- Dockerfile — multi-stage build, distroless base, non-root user
-- k8s/deployment.yaml — OpenShift deployment manifest with placeholder values:
-  - Image: image-registry.openshift-image-registry.svc:5000/${NAMESPACE}/payment-app:${IMAGE_TAG}
-  - Namespace: ${NAMESPACE}
-  - 3 replicas, resource limits, readiness/liveness probes
-  - PodDisruptionBudget (max 1 unavailable)
-  - Service and Route
-  Use placeholder values only — real cluster values will be injected at deploy time.
+Important implementation notes:
+1. `GenerationType.UUID` requires JPA 3.x — Spring Boot 2.7 ships with JPA 2.x (Hibernate 5), which does not support `GenerationType.UUID`. Use `UUID.randomUUID()` in a `@PrePersist` hook instead, or upgrade to Spring Boot 3.x.
+
+2. Lombok requires annotation processing to be active at compile time — When Lombok is on the classpath but the compiler's annotation processor isn't wired correctly (e.g., missing `-proc:full` flag or IDE misconfiguration), all generated methods (`getters`, `setters`, `builder`, `log`) are invisible to `javac` and produce "cannot find symbol" errors. For a zero-friction demo, replacing Lombok with explicit getters/setters and a hand-written builder is more portable and avoids the dependency entirely.
 
 Use the following folder structure:
 ```
@@ -135,13 +130,10 @@ payment-app/
 │           ├── static/          ← React frontend
 │           └── application.properties
 ├── pom.xml
-├── Dockerfile
-├── k8s/
-│   └── deployment.yaml   ← OpenShift manifest with placeholder values
 └── README.md
 ```</div>
                         <div class="prompt-note bonus-challenge">
-                            <strong>Bonus Challenge:</strong> After Bob generates the application, ask Bob to run it locally and see the magic!
+                            <strong>Take-Home Challenge:</strong> After Bob generates the application, ask Bob to run it locally and see the magic!
                         </div>
                     </div>
 
@@ -151,8 +143,6 @@ payment-app/
                             <li>Full-stack application development (Java Spring Boot + React)</li>
                             <li>RESTful API design and implementation</li>
                             <li>Database integration and caching strategies</li>
-                            <li>Containerization with Docker</li>
-                            <li>Kubernetes/OpenShift deployment manifests</li>
                             <li>Production-ready configuration with health checks and metrics</li>
                         </ul>
                     </div>
@@ -164,52 +154,54 @@ payment-app/
                         <strong>Getting Started:</strong> Use Bob to build a government backend service from scratch — then use the bonus prompt to run it and add a UI. This demonstrates Bob's capabilities across the Software Development Lifecycle (SDLC) for a public sector scenario.
                     </div>
 
-                    <!-- Prompt: Build Citizen Services Backend -->
+                    <!-- Prompt: Build Citizen Service Request -->
                     <div class="prompt-card">
                         <div class="prompt-header">
-                            <h2 class="prompt-title">Build a Citizen Service Request Backend</h2>
+                            <h2 class="prompt-title">Build a Citizen Service Request <span class="mode-badge mode-badge-agent" title="Use Agent Mode in Bob for this prompt">Agent Mode</span></h2>
                             <button class="copy-btn" data-prompt="ps-prompt-sdlc-1">Copy Prompt</button>
                         </div>
-                        <div class="prompt-content" id="ps-prompt-sdlc-1">Build a mock Citizen Service Request backend for a government agency using Java 17 and Spring Boot 3.
+                        <div class="prompt-content" id="ps-prompt-sdlc-1">Build a mock Citizen Service Request application for a government agency using Java 17 and Spring Boot 3.
 
-REST API endpoints:
-- POST /api/citizens — register a new citizen (nationalId, fullName, dateOfBirth, email)
-- GET /api/citizens/lookup?nationalId=XXX — look up citizen by national ID
-- POST /api/requests — submit a service request (citizenId, serviceType, description)
-- GET /api/requests/{id} — get request status
-- PATCH /api/requests/{id}/status — officer updates request status (body: status, officer, remarks)
-- GET /api/requests/dashboard — returns count of requests per status
+Backend (Java 17, Spring Boot 3):
+- REST API endpoints:
+  - POST /api/citizens — register a new citizen (nationalId, fullName, dateOfBirth, email)
+  - GET /api/citizens/lookup?nationalId=XXX — look up citizen by national ID
+  - POST /api/requests — submit a service request (citizenId, serviceType, description)
+  - GET /api/requests/{id} — get request status
+  - PATCH /api/requests/{id}/status — officer updates request status (body: status, officer, remarks)
+  - GET /api/requests/dashboard — returns count of requests per status
 
-Service request types: PASSPORT_APPLICATION, BIRTH_CERTIFICATE, DRIVING_LICENCE_RENEWAL, SOCIAL_BENEFIT_CLAIM, TAX_FILING, VOTER_REGISTRATION
+- Service request types: PASSPORT_APPLICATION, BIRTH_CERTIFICATE, DRIVING_LICENCE_RENEWAL, SOCIAL_BENEFIT_CLAIM, TAX_FILING, VOTER_REGISTRATION
+- Business rules to enforce:
+  - National ID must be unique and exactly 12 uppercase alphanumeric characters
+  - Only ACTIVE citizens can submit requests
+  - Status workflow: SUBMITTED → UNDER_REVIEW → APPROVED | REJECTED (no skipping steps)
+  - resolvedAt is auto-set when status reaches APPROVED or REJECTED
+- Use in-memory H2 database — no external DB needed
+- Seed 3 demo citizens and 4 service requests in various states on startup
 
-Business rules to enforce:
-- National ID must be unique and exactly 12 uppercase alphanumeric characters
-- Only ACTIVE citizens can submit requests
-- Status workflow: SUBMITTED → UNDER_REVIEW → APPROVED | REJECTED (no skipping steps)
-- resolvedAt is auto-set when status reaches APPROVED or REJECTED
-
-Use in-memory H2 database — no external DB needed.
-Seed 3 demo citizens and 4 service requests in various states on startup.
+Frontend (React):
+- Citizen registration form and national ID lookup
+- Service request submission form with dropdown for request type
+- Officer dashboard: table of all pending requests with status update controls
+- Status badges: Submitted (blue), Under Review (yellow), Approved (green), Rejected (red)
+- Simple and clean — this is for a demo, not production
 
 Make it run with a single command: mvn spring-boot:run
 Do not run the application. I will run it myself.</div>
                         <div class="prompt-note bonus-challenge">
-                            <strong>Bonus Challenge:</strong> After Bob generates the backend, use these follow-up prompts:
-                            <ol style="margin: 0.5rem 0 0 1.25rem;">
-                                <li>Ask Bob to run the application and test the dashboard endpoint in the browser</li>
-                                <li>Ask Bob to add a simple React frontend with an officer dashboard and Carbon Design styling</li>
-                            </ol>
+                            <strong>Take-Home Challenge:</strong> After Bob generates the application, ask Bob to run it locally and see the magic!
                         </div>
                     </div>
 
                     <div class="prompt-note" style="margin-top: 2rem;">
                         <strong>What This Demonstrates:</strong>
                         <ul style="margin-top: 0.5rem; padding-left: 1.5rem;">
-                            <li>Full Spring Boot backend built from a single prompt in minutes</li>
+                            <li>Full-stack application development (Java Spring Boot + React)</li>
                             <li>Government-style workflow with status lifecycle and business rule enforcement</li>
                             <li>RESTful API design covering citizen and officer personas</li>
                             <li>H2 in-memory database with seeded demo data — ready to explore immediately</li>
-                            <li>Clean, extensible project structure ready for further development</li>
+                            <li>Production-ready configuration with health checks</li>
                         </ul>
                     </div>
                 </div>
